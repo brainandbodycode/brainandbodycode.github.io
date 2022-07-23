@@ -43,7 +43,6 @@ export default {
     min-height: var(--content-height);
     grid-template-rows: [content] auto;
     align-items: stretch;
-    margin-bottom: 60px;
 
     &-img {
         grid-column-start: col-start 7;

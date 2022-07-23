@@ -7,9 +7,8 @@ src: /img/index-hero-img.jpeg
 At **Brain and Body Therapy** we treat the body as a whole and utilize various treatment techniques to harmonize the different systems involved in keeping our bodies alive. One of our goals is to lessen the barrier of self-care by providing in-home services, meaning we travel to your house for your session! We specialize in pregnancy and postpartum massage as well as pediatric bodywork. Our techniques include cupping, craniosacral, swedish / relaxation, and Masgutova Neurosensorimotor Reflex Integration (MNRI).
 ::
 
-<!-- ::full-title
-## Services and Rates
-:: -->
+::spacer{size="--space-large"}
+::
 
 ::s-item
 ---
@@ -27,6 +26,9 @@ We provide in-home services for the highest level of relaxation. Combining our k
 You can expect firm to medium pressure throughout your massage. We are always looking at the body’s subtle clues if we come across a tender area or need to adjust the pressure. You can expect to hear, “Do you need more, less or the same amount of pressure.” during your massage so we can get the best feedback on what you need. The massage is completed at a slower place to allow the nervous system to relax to allow our work to last longer. 
 
 Adults can also benefit from Musgutova Neurosensorimotor Reflex Integration (MNRI). MNRI has been known to help improve coordination, decrease stress and help with past traumatic events without talk therapy. By providing specific proprioceptive input to the sensory system, we can “reprogram” the nervous system into a more efficient way of functioning. Click here for more MNRI information. 
+::
+
+::spacer{size="--space-medium"}
 ::
 
 ::s-item
@@ -53,7 +55,9 @@ Kiddos can benefit from bodywork too! Improving respiration, circulation, sensor
 - Do they have difficulty with transitions or primarily walk on their toes? _(sensory processing and grounding)_
 
 Primarily utilizing techniques in Masgutova Neurosensorimotor Reflex Integration (MNRI) we work with their body’s innate intelligence to improve their neuroplasticity and inherently improve their overall well-being. You will be provided with a home program to complete after the initial visit for continued improvement. The home program is taught to facilitate faster improvements. These techniques are easily reproducible and effective. Click here for more MNRI information.
+::
 
+::spacer{size="--space-medium"}
 ::
 
 ::s-item
@@ -84,7 +88,9 @@ Are you ready to change up your next team meeting or work event? Whether you wan
 - Prevent repetitive strain injuries
 
 All events are customizable and quotes are based on request.
+::
 
+::spacer{size="--space-large"}
 ::
 
 ::grid-1

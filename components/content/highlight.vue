@@ -1,13 +1,9 @@
 <template>
     <div class="content-highlight grid">
-        <!-- <div class="content-highlight-heading">
-            <h1>CREATING CHANGE</h1>
-            <p>through an integrative approach</p>
-        </div> -->
         <div class="content-highlight-content">
             <slot />
         </div>
-        <img class="content-highlight-img" :src="src" alt="">
+        <img class="content-highlight-img" :src="src" :alt="alt">
     </div>
 </template>
 
@@ -18,24 +14,18 @@ export default {
             type: String,
             required: true
         },
+        alt: {
+            type: String,
+            default: ''
+        },
     }
 }
 </script>
 
 <style lang="scss">
 .content-highlight {
-    // background-color: var(--color1);
-    grid-template-rows: [content-heading] auto [content-top] auto;
+    grid-template-rows: [content-top] auto;
     align-items: stretch;
-    margin-bottom: 80px;
-
-    &-heading {
-        grid-column-start: main-start;
-        grid-column-start: col-start 2;
-        grid-column-end: col-start 12;
-        grid-row: content-heading / span 1;
-        text-align: center;
-    }
 
     &-content {
         grid-column-start: main-start;

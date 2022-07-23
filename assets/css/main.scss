@@ -83,3 +83,8 @@ small,
     grid-column-start: main-start;
     grid-column-end: main-end;
 }
+
+.bright {
+    color: var(--color4);
+    text-decoration: underline;
+}

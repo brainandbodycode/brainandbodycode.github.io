@@ -32,14 +32,14 @@ export default {
         position: absolute;
         top: -8px;
         left: -12px;
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
     &-quoteafter::after {
         content: '”';
         position: absolute;
         top: -8px;
         right: -12px;
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
     &-name {
         font-weight: 700;
