@@ -1,7 +1,7 @@
 <template>
     <nuxt-link class="blogpreview" :to="path">
         <img :src="`${img}`" :alt="title" />
-        <p>{{ title }}</p>
+        <p class="h4">{{ title }}</p>
     </nuxt-link>
 </template>
 
@@ -31,13 +31,14 @@ export default {
 
     img {
         width: 100%;
-        height: 200px;
+        height: 150px;
         object-fit: cover;
         object-position: 50% 50%;
+        border-radius: 5px;
     }
 
     p {
-        margin: 0;
+        margin: 10px 0 0 0;
     }
 }
 </style>

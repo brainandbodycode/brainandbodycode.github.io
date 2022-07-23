@@ -20,9 +20,15 @@ A reflex is a motor response that automatically occurs each time a particular st
 
 ::
 
-::grid-2
+::grid-gold
+---
+flip: true
+---
 
 #left
+![MNRI](/img/blog/mnri-items.jpeg)
+
+#right
 ## Why do we need reflexes?
 
 A combination of reflexes are constantly working without us knowing because they have matured and integrated. These reflexes are imperative to stay with us as we need reflexes to keep us safe. If these reflexes are not integrated it is common to see global impacts from fine and gross motor delays, anxiety, to cognitive delays. 
@@ -31,21 +37,20 @@ A combination of reflexes are constantly working without us knowing because they
 
 Therapy is generally done on the massage table. This is a gentle and mostly passive approach for the client, so it has minimal contraindications. Depending on the session goals, we will generally position the body in a reflex pattern and provide a sensory stimulus with a motor response to integrate the intended reflex. A home program is provided for continued integration at home. 
 
-#right
-![MNRI](/img/blog/mnri-items.jpeg)
-
 ::
 
-::grid-gold
-#left
-
+::grid-1
 ::youtube
 ---
 id: b8UHATuy5IA
 title: Introductory Video
 ---
 ::
+::
 
+::grid-2
+
+#left
 ::youtube
 ---
 id: yLFi-arV4EQ
@@ -53,6 +58,7 @@ title: MNRI Testimonial Video
 ---
 ::
 
+#right
 ::youtube
 ---
 id: vrewdUq30ZI
@@ -60,13 +66,16 @@ title: Reflex Integration for trauma recovery
 ---
 ::
 
+::
+
+::grid-1
 ## Peer-Reviewed Journals
 
-[Neurophysiological aspects of Neurotactile therapy of Masgutova neurosensory motor reflex integration MNRI® method](https://masgutovamethod.com/_uploads/_media_uploads/_source/Medical-Rehabilitation-2016.pdf)
+- [Neurophysiological aspects of Neurotactile therapy of Masgutova neurosensory motor reflex integration MNRI® method](https://masgutovamethod.com/_uploads/_media_uploads/_source/Medical-Rehabilitation-2016.pdf)
 
-[The effect of the MNRI method on Neurotransmitter biomarkers of individuals with neurodevelopmental disorders](https://masgutovamethod.com/_uploads/_media_uploads/_source/NM_Neurotransmitters.pdf)
+- [The effect of the MNRI method on Neurotransmitter biomarkers of individuals with neurodevelopmental disorders](https://masgutovamethod.com/_uploads/_media_uploads/_source/NM_Neurotransmitters.pdf)
 
-[Neurosensorimotor reflex integration for autism: a new therapy modality paradigm](https://masgutovamethod.com/_uploads/_media_uploads/_source/Jourrnal-Of-Pediatric-Neurological-Disorders-vol2-issue1.pdf)
+- [Neurosensorimotor reflex integration for autism: a new therapy modality paradigm](https://masgutovamethod.com/_uploads/_media_uploads/_source/Jourrnal-Of-Pediatric-Neurological-Disorders-vol2-issue1.pdf)
 
-[Flood trauma survival and recovery using MNRI reflex neurointegration therapy](https://masgutovamethod.com/_uploads/_media_uploads/_source/International-Journal-Of-Physical-Medicine-And-Rehabilitation-vol5-issue6.pdf)
+- [Flood trauma survival and recovery using MNRI reflex neurointegration therapy](https://masgutovamethod.com/_uploads/_media_uploads/_source/International-Journal-Of-Physical-Medicine-And-Rehabilitation-vol5-issue6.pdf)
 ::

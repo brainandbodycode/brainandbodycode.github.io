@@ -123,4 +123,13 @@ name: BROOKE L.
 ::contact-form
 ::
 
+#right
+::rounded-img
+---
+src: /img/quote-plant.jpeg
+alt: MNRI
+---
+::
+
+
 ::

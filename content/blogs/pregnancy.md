@@ -12,7 +12,11 @@ src: /img/blog/belly.jpeg
 We will provide extra support pillows for you to lay comfortably on your side while we work on your target areas. We’ll incorporate long flowing strokes to help with circulation but also provide you with deeper pressure to help relax those tight muscles.
 ::
 
-::grid-1
+::spacer{size="--space-small"}
+::
+
+::grid-gold
+#left
 The reason we will complete your pregnancy massage in side lying instead of having a specialized pillow with the breast and belly cutouts is because we can address your low back pain with firm pressure. In side lying we can mobilize the pelvis and target your lumbar muscles without increasing tension on your low back. 
 
 

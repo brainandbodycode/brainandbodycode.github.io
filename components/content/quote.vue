@@ -24,25 +24,33 @@ export default {
 .quote {
     display: flex;
     flex-direction: column;
-    &-quotebefore, &-quoteafter {
+
+    &-quotebefore,
+    &-quoteafter {
         position: relative;
     }
+
+    &-quotebefore::before,
+    &-quoteafter::after {
+        position: absolute;
+        top: -14px;
+        font-size: 2em;
+        color: var(--color1);
+    }
+
     &-quotebefore::before {
         content: '“';
-        position: absolute;
-        top: -8px;
-        left: -12px;
-        font-size: 1.25em;
+        left: -16px;
     }
+
     &-quoteafter::after {
         content: '”';
-        position: absolute;
-        top: -8px;
-        right: -12px;
-        font-size: 1.25em;
+        right: -16px;
     }
+
     &-name {
         font-weight: 700;
+        color: var(--color1);
     }
 }
 </style>

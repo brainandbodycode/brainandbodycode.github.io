@@ -1,6 +1,6 @@
 <template>
     <div class="youtube">
-        <h3>{{ title }}</h3>
+        <p class="h3">{{ title }}</p>
         <div class="youtube-container">
             <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${id}`" title="YouTube video player"
                 frameborder="0"

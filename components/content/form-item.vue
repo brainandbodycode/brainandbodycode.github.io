@@ -1,7 +1,7 @@
 <template>
     <a :href="url" class="form-item" target="_blank" rel="noreferrer">
-        <img :src="img" :alt="title">
-        <strong>{{ title }}</strong>
+        <img :src="`${img}`" :alt="title" />
+        <p class="h4">{{ title }}</p>
     </a>
 </template>
 
@@ -24,8 +24,21 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 .form-item {
-    display: block;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        object-position: 50% 50%;
+        border-radius: 5px;
+    }
+
+    p {
+        margin: 10px 0 0 0;
+    }
 }
 </style>

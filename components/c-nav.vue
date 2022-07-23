@@ -32,7 +32,8 @@
                     <nuxt-link to="/book-now">Book Now</nuxt-link>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/brainandbodytherapy/" rel="noreferrer" target="_blank">
+                    <a class="cnav-ig" href="https://www.instagram.com/brainandbodytherapy/" rel="noreferrer"
+                        target="_blank">
                         <img src="/img/icon-ig.svg" alt="Visit Brain and Body Therapy's Instagram" width="32"
                             height="32">
                     </a>
@@ -85,6 +86,10 @@
             object-fit: contain;
             object-position: 50% 50%;
         }
+    }
+
+    &-ig {
+        margin-right: 5px;
     }
 
     ul {
