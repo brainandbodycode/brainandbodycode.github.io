@@ -1,0 +1,1 @@
+import{a as s,o as a,b as r,e as o,r as t}from"./entry-be769b5b.mjs";const c={},n={class:"grid"},d={class:"span-12"};function _(e,i){return a(),r("div",n,[o("div",d,[t(e.$slots,"default")])])}var f=s(c,[["render",_]]);export{f as default};
