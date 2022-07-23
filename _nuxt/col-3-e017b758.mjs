@@ -1,1 +1,0 @@
-import{a as o,o as t,b as r,r as s}from"./entry-2a9a8fe1.mjs";const c={},n={class:"col-3"};function a(e,_){return t(),r("div",n,[s(e.$slots,"default")])}var d=o(c,[["render",a]]);export{d as default};

@@ -1,1 +1,0 @@
-import{a as o,o as r,b as s,j as n,t,e as a}from"./entry-2a9a8fe1.mjs";const c={props:{quote:{type:String,required:!0},name:{type:String,required:!0}}},u={class:"quote col-3"},i=a("span",null,"\u201C",-1);function p(_,l,e,d,f,m){return r(),s("p",u,[i,n(t(e.quote),1),a("span",null,"\u201D - "+t(e.name),1)])}var x=o(c,[["render",p]]);export{x as default};
