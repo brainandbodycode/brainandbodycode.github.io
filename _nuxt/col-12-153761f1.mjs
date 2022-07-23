@@ -1,0 +1,1 @@
+import{a as o,o as r,b as s,r as c}from"./entry-8de62aae.mjs";const t={},a={class:"col-12"};function n(e,l){return r(),s("div",a,[c(e.$slots,"default")])}var d=o(t,[["render",n]]);export{d as default};
