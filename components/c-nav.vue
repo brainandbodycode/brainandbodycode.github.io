@@ -9,15 +9,22 @@
                     <nuxt-link to="/">HOME</nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/contact">CONTACT</nuxt-link>
-                </li>
-                <li>
                     <nuxt-link to="/about-us">ABOUT US</nuxt-link>
                 </li>
                 <li>
                     <nuxt-link to="/book-now">BOOK NOW</nuxt-link>
                 </li>
-                <li class="cnav-extra">
+                <li>
+                    <a href="https://www.instagram.com/brainandbodytherapy/" rel="noreferrer" target="_blank">
+                        <img src="/img/icon-ig.svg" alt="Visit Brain and Body Therapy's Instagram" width="32"
+                            height="32">
+                    </a>
+                    <a href="https://fb.me/brainandbodytherapy" rel="noreferrer" target="_blank">
+                        <img src="/img/icon-fb.svg" alt="Visit Brain and Body Therapy's Facebook" width="32"
+                            height="32">
+                    </a>
+                </li>
+                <!-- <li class="cnav-extra">
                     <span>LEARN MORE</span>
                     <ul>
                         <li>
@@ -33,7 +40,7 @@
                             <nuxt-link to="/forms">FORMS</nuxt-link>
                         </li>
                     </ul>
-                </li>
+                </li> -->
             </ul>
         </div>
     </nav>
@@ -45,7 +52,7 @@
     grid-row: content-nav;
     grid-column: content-main;
     position: relative;
-    padding: 20px 0 60px 0;
+    padding: 20px 0 20px 0;
 
     &-logo {
         grid-column-start: main-start;
@@ -73,10 +80,16 @@
         padding: 0;
         font-weight: 700;
 
-        li,
-        a {
+        li {
             margin: 0 10px;
-            display: block;
+            display: flex;
+            flex-direction: row;
+        }
+
+        a {
+            width: 100%;
+            height: 100%;
+            display: flex;
         }
 
         .router-link-exact-active {

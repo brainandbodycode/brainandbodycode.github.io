@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <c-backing />
-    <!-- <c-header /> -->
     <c-nav />
     <NuxtPage class="app-page" />
     <c-footer />
@@ -11,14 +9,15 @@
 <style lang="scss">
 #app {
   display: grid;
-  grid-template-rows: [content-nav] auto [content-highlight] 500px [content-main] auto [content-footer] auto;
+  grid-template-rows: [content-nav] auto [content-main] auto [content-footer] auto;
   grid-template-columns: [content-main] auto;
 
   .app-page {
     width: 100%;
-    grid-row: content-highlight / span 2;
+    grid-row: content-main;
     grid-column: content-main;
     position: relative;
+    padding: 20px 0 20px 0;
   }
 }
 </style>

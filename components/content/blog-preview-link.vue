@@ -1,5 +1,5 @@
 <template>
-    <div class="col-3">
+    <div>
         <content-doc :path="path" v-slot="{ doc }">
             <blog-preview :path="doc._path" :title="doc.title" :img="doc.img" />
         </content-doc>

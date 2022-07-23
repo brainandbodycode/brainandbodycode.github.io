@@ -1,5 +1,9 @@
 <template>
     <div class="content-highlight grid">
+        <!-- <div class="content-highlight-heading">
+            <h1>CREATING CHANGE</h1>
+            <p>through an integrative approach</p>
+        </div> -->
         <div class="content-highlight-content">
             <slot />
         </div>
@@ -20,24 +24,26 @@ export default {
 
 <style lang="scss">
 .content-highlight {
-    --golden-inverse: 0.618;
-    --content-height: 100px;
-    min-height: var(--content-height);
-    grid-template-rows: [content-top] auto [content-overlap] 300px [content-bottom] auto;
+    // background-color: var(--color1);
+    grid-template-rows: [content-heading] auto [content-top] auto;
     align-items: stretch;
+    margin-bottom: 80px;
+
+    &-heading {
+        grid-column-start: main-start;
+        grid-column-start: col-start 2;
+        grid-column-end: col-start 12;
+        grid-row: content-heading / span 1;
+        text-align: center;
+    }
 
     &-content {
         grid-column-start: main-start;
-        grid-column-end: col-start 8;
-        grid-row: content-top / span 2;
+        grid-column-end: col-start 6;
+        grid-row: content-top / span 1;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        background-color: #1b1c1dee;
-        padding: 10px 20px;
         z-index: 2;
-        color: var(--white);
         border-radius: 5px;
 
     }
@@ -45,7 +51,7 @@ export default {
     &-img {
         grid-column-start: col-start 6;
         grid-column-end: main-end;
-        grid-row: content-overlap / span 2;
+        grid-row: content-top / span 1;
         width: 100%;
         height: 100%;
         object-fit: cover;

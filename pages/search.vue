@@ -5,8 +5,8 @@ const results = data.value
 
 <template>
     <div class="pg-search grid">
-        <col-3 class="pg-blog-item" v-for="result in results" :key="result._path">
+        <div class="pg-blog-item" v-for="result in results" :key="result._path">
             <blog-preview :path="result._path" :title="result.title" :img="result.img" />
-        </col-3>
+        </div>
     </div>
 </template>

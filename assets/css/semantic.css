@@ -22,7 +22,7 @@
     --text-bright: #000;
     --text-muted: #70777f;
     --links: var(--black);
-    --focus: #0096bfab;
+    --focus: var(--color4);
     --border: var(--black);
     --code: var(--black);
     --animation-duration: 0.1s;
@@ -791,14 +791,6 @@ dialog::backdrop {
     background: #0000009c;
     -webkit-backdrop-filter: blur(4px);
     backdrop-filter: blur(4px);
-}
-
-footer {
-    border-top: 1px solid #dbdbdb;
-    border-top: 1px solid var(--border);
-    padding-top: 10px;
-    color: #70777f;
-    color: var(--text-muted);
 }
 
 body>footer {
