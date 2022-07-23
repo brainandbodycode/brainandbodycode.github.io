@@ -1,7 +1,7 @@
 <template>
     <nuxt-link class="blogpreview" :to="path">
-        <img :src="`/img/blog/${img}`" :alt="title" />
-        <span>{{ title }}</span>
+        <img :src="`${img}`" :alt="title" />
+        <p>{{ title }}</p>
     </nuxt-link>
 </template>
 
@@ -28,12 +28,16 @@ export default {
 .blogpreview {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     img {
         width: 100%;
-        height: auto;
+        height: 200px;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+
+    p {
+        margin: 0;
     }
 }
 </style>

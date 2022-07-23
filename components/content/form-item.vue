@@ -1,8 +1,8 @@
 <template>
-    <div class="pg-forms-item">
+    <a :href="url" class="form-item" target="_blank" rel="noreferrer">
         <img :src="img" :alt="title">
-        <a :href="url">{{title}}</a>
-    </div>
+        <strong>{{ title }}</strong>
+    </a>
 </template>
 
 <script>
@@ -23,3 +23,9 @@ export default {
     },
 }
 </script>
+
+<style>
+.form-item {
+    display: block;
+}
+</style>

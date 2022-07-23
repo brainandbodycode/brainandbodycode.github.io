@@ -1,6 +1,6 @@
 ---
 title: Masgutova Neurosensorimotor Reflex Integration
-img: baby.jpeg
+img: /img/blog/mnri.png
 keywords:
     - cool
     - great
