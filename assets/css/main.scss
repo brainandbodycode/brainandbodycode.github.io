@@ -91,6 +91,16 @@ small,
     grid-column-end: main-end;
 }
 
+.span-gold:nth-child(2n + 1) {
+    grid-column-start: main-start;
+    grid-column-end: col-start 9;
+}
+
+.span-gold:nth-child(2n + 2) {
+    grid-column-start: col-start 9;
+    grid-column-end: main-end;
+}
+
 .span-12 {
     grid-column-start: main-start;
     grid-column-end: main-end;

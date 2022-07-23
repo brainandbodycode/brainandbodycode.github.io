@@ -16,7 +16,8 @@ I know it sounds cliche, but **I always knew I wanted to help people**. During o
 ::spacer{size="--space-small"}
 ::
 
-::grid-1
+::grid-gold
+#left
 I graduated in 2017 as an OTA and started working in an outpatient pediatric clinic shortly after. My intentions were to help and enable children regardless of their current skill level, development, or diagnosis. Through this setting I was introduced to the Masgutova Neurosensorimotor Reflex Integration (MNRI®) method which was life changing for the population I was working with. I realized there was more to the brain-body connection that I currently knew and enrolled in a massage therapy program to broaden my knowledge and skill set.
 
 I graduated in 2020. During my training at massage school, I refined my skills and enhanced my passion to increase the quality of life of those around me. 
@@ -24,9 +25,7 @@ I graduated in 2020. During my training at massage school, I refined my skills a
 I have worked with pediatric patients diagnosed with ADHD, torticollis, missed milestones,  anxiety, autism, learning disorders, CP and PTSD; as well as adults in rehab therapy recovering from post-stoke, cardial, hip, and knee surgeries. I enjoy working with individuals across the lifespan and have worked with ages 6 months to 96 years old with varying diagnoses; I am passionate about bringing health and healing to all ages.
 
 When I’m not working I enjoy all the benefits the great Pacific Northwest has to offer. In the winters I love to snowboard and snowshoe. In the summers I love traveling with my adventure buddies, which include my husband and two dogs. We love to camp and venture to new places.  
-::
 
-::grid-1
 ### Education
 
 - Therapeutic Connections School of Massage - **Certified Massage Therapist, 2020**

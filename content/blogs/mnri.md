@@ -36,8 +36,8 @@ Therapy is generally done on the massage table. This is a gentle and mostly pass
 
 ::
 
-::grid-1
-
+::grid-gold
+#left
 
 ::youtube
 ---

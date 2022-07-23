@@ -93,12 +93,10 @@ All events are customizable and quotes are based on request.
 ::spacer{size="--space-large"}
 ::
 
-::grid-1
-# Kind words from our clients
-::
-
-::grid-2
+::grid-gold
 #left
+# Kind words from our clients
+
 ::quote
 ---
 quote: I couldn’t recommend Carla more! Best massage I have ever received and in the convenience of my own home! Carla is extremely professional but at the same time makes you feel very comfortable!
@@ -106,16 +104,13 @@ name: TAYLOR M.
 ---
 ::
 
-#right
 ::quote
 ---
 quote: Carla is amazing, I cannot recommend her enough! She will make you feel so much better than before by the time she is done! Can’t wait to book my next one!
 name: HALEY R.
 ---
 ::
-::
 
-::grid-1
 ::quote
 ---
 quote: As a physical therapist I have worked with and experienced a lot of massage therapists. Carla’s treatments go beyond her discipline. Her knowledge of anatomy combined with her deep understanding of the neurological system means that she knows how to modulate her touch for the appropriate release of muscles, neurological guarding, and fascia... I’ve recommended her to friends, family, and my own patients, and will gladly continue to do so.
@@ -123,10 +118,9 @@ name: BROOKE L.
 ---
 ::
 
-::
-
-::grid-1
 ## Lets start our conversation
+
 ::contact-form
 ::
+
 ::
