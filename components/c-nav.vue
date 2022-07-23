@@ -6,13 +6,30 @@
             </a>
             <ul>
                 <li>
-                    <nuxt-link to="/">HOME</nuxt-link>
+                    <nuxt-link to="/">Home</nuxt-link>
                 </li>
                 <li>
-                    <nuxt-link to="/about-us">ABOUT US</nuxt-link>
+                    <nuxt-link to="/about-us">About Us</nuxt-link>
                 </li>
-                <li>
-                    <nuxt-link to="/book-now">BOOK NOW</nuxt-link>
+                <li class="cnav-extra">
+                    <span>Learn More</span>
+                    <ul>
+                        <li>
+                            <nuxt-link to="/massage-types">TYPES OF MASSAGE/BODYWORK</nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="/blogs/mnri">MNRI</nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="/blog">BLOG</nuxt-link>
+                        </li>
+                        <li>
+                            <nuxt-link to="/forms">FORMS</nuxt-link>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cnav-cta">
+                    <nuxt-link to="/book-now">Book Now</nuxt-link>
                 </li>
                 <li>
                     <a href="https://www.instagram.com/brainandbodytherapy/" rel="noreferrer" target="_blank">
@@ -54,6 +71,8 @@
     position: relative;
     padding: 20px 0 20px 0;
 
+
+
     &-logo {
         grid-column-start: main-start;
         grid-column-end: col-start 4;
@@ -81,15 +100,22 @@
         font-weight: 700;
 
         li {
-            margin: 0 10px;
             display: flex;
             flex-direction: row;
+            margin: 0 10px;
+        }
+
+        .cnav-cta a {
+            background-color: var(--color4);
+            padding: 10px 20px;
+            border-radius: 5px;
         }
 
         a {
+            padding: 10px 0px;
             width: 100%;
             height: 100%;
-            display: flex;
+            display: inline-flex;
         }
 
         .router-link-exact-active {
@@ -99,14 +125,18 @@
 
     &-extra {
         position: relative;
+        cursor: default;
 
         ul {
             display: none;
             position: absolute;
-            top: 20px;
-            right: 0;
+            top: 25px;
+            left: 50%;
             z-index: 10;
-            background-color: rgba(255, 255, 255, 0.75);
+            background-color: var(--white);
+            transform: translate(-50%, 0);
+            border-radius: 5px;
+            border: 1px solid var(--color3);
         }
     }
 

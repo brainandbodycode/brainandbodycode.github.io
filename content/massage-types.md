@@ -1,12 +1,14 @@
 ::highlight
-# Learn about the types of massage and bodywork we offer
+---
+src: /img/massage-types-header.jpeg
+---
+## Learn about the types of massage and bodywork we offer.
+
+At **Brain and Body Therapy** we are passionate to provide the best care. If you are seeking to relax and relieve tension or improve the ability to complete daily tasks, you’ve landed in the right spot. You are a complex human being with life stresses and an amazing neural network system at the center of it all; we provide a variety of techniques to address your needs. Whether we use traditional applications or utilize reflex integration, our services are always goal focused and together we develop the best plan of care for you.
 ::
 
-<!-- start grid -->
-::grid 
-At **Brain and Body Therapy** we are passionate to provide the best care. If you are seeking to relax and relieve tension or improve the ability to complete daily tasks, you’ve landed in the right spot. You are a complex human being with life stresses and an amazing neural network system at the center of it all; we provide a variety of techniques to address your needs. Whether we use traditional applications or utilize reflex integration, our services are always goal focused and together we develop the best plan of care for you.
-
-##### Looking for something specific? 
+::grid-1
+### Looking for something specific? 
 Reach out to us and we would be happy to try and accommodate your needs or refer you to a therapist who has the skillset you’re looking for. We believe that the path to health and healing should be collaborative and there are many talented people in the Spokane area who are here to help. If we cannot provide the service you’re looking for, chances are we know someone who can.
 :: 
 <!-- end grid -->
