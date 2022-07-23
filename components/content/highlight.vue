@@ -30,7 +30,7 @@ export default {
     border-radius: 5px;
     position: relative;
     overflow: hidden;
-    background-image: linear-gradient(145deg, var(--white), var(--color5));
+    background-color: var(--color5);
 
     &-content {
         position: relative;
