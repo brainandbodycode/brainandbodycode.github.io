@@ -53,6 +53,7 @@ export default {
         object-fit: cover;
         object-position: 50% 50%;
         border-radius: 5px;
+        max-height: 400px;
     }
 
     &-img.flip {

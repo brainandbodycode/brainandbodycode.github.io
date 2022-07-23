@@ -15,16 +15,16 @@
                     <span>Learn More</span>
                     <ul>
                         <li>
-                            <nuxt-link to="/massage-types">TYPES OF MASSAGE/BODYWORK</nuxt-link>
+                            <nuxt-link to="/massage-types">Massage Types</nuxt-link>
                         </li>
                         <li>
                             <nuxt-link to="/blogs/mnri">MNRI</nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="/blog">BLOG</nuxt-link>
+                            <nuxt-link to="/blog">Blog</nuxt-link>
                         </li>
                         <li>
-                            <nuxt-link to="/forms">FORMS</nuxt-link>
+                            <nuxt-link to="/forms">Forms</nuxt-link>
                         </li>
                     </ul>
                 </li>
@@ -137,6 +137,8 @@
             transform: translate(-50%, 0);
             border-radius: 5px;
             border: 1px solid var(--color3);
+            width: 200px;
+            padding: 0 5px;
         }
     }
 

@@ -13,7 +13,7 @@ Reach out to us and we would be happy to try and accommodate your needs or refer
 :: 
 
 
-::spacer{size="--space-medium"}
+::spacer{size="--space-large"}
 ::
 
 <!-- start massage types -->
@@ -25,7 +25,7 @@ img: /img/types/Craniosacral.jpeg
 Craniosacral offers subtle reorganization of the cerebrospinal fluid rhythm and flow. This is done through light touch and intention as your body restores its natural rhythm to improve form and function. Cerebrospinal fluid is essential to our body’s regulation as it provides nutrients and acts as a shock absorption system to our brain and spinal cord. Allowing proper movement of this fluid is imperative and can be constructed if any head/neck trauma has occurred. 
 ::
 
-::spacer{size="--space-medium"}
+::spacer{size="--space-large"}
 ::
 
 ::massage-type
@@ -37,7 +37,7 @@ flip: true
 Uses localized suction to pull out toxins, improve blood flow, and elevate muscle tension. Cupping has no down time.
 ::
 
-::spacer{size="--space-medium"}
+::spacer{size="--space-large"}
 ::
 
 ::massage-type
@@ -48,7 +48,7 @@ img: /img/types/MNRI.jpeg
 This approach utilizes a way of integrating the brain and body connection by addressing and re-patterning our primitive reflexes. This style of bodywork focuses on integrating reflexes through specific, developmental body positions with sensory and motor input. Curious? Find out more here.
 ::
 
-::spacer{size="--space-medium"}
+::spacer{size="--space-large"}
 ::
 
 ::massage-type
@@ -60,7 +60,7 @@ flip: true
 Myofascial work identifies areas in the body which have restricted movement due to bound fascial fibers. Emphasizing pressure to the connective tissues, this slow and broad technique is effective to improve joint and muscle movement by allowing increased movement between the muscle fibers.
 ::
 
-::spacer{size="--space-medium"}
+::spacer{size="--space-large"}
 ::
 
 ::massage-type
@@ -71,7 +71,7 @@ img: /img/types/PNF.jpeg
 PNF focuses on stretching and elongating muscles to help improve range of motion. Working with passive stretching and small contractions to target muscles, this type of therapy can quickly elongate muscles by breaking the neuromuscular holding pattern.
 ::
 
-::spacer{size="--space-medium"}
+::spacer{size="--space-large"}
 ::
 
 ::massage-type
@@ -83,7 +83,7 @@ flip: true
 This type of application focuses on relaxing the entire body. It utilizes long flowing strokes with emphasis to the heart for improved circulation. Great for stress release, relaxation, and improving flexibility. 
 ::
 
-::spacer{size="--space-medium"}
+::spacer{size="--space-large"}
 ::
 
 ::massage-type

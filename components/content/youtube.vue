@@ -1,10 +1,12 @@
 <template>
     <div class="youtube">
         <h3>{{ title }}</h3>
-        <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${id}`" title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+        <div class="youtube-container">
+            <iframe width="560" height="315" :src="`https://www.youtube.com/embed/${id}`" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
     </div>
 </template>
 
@@ -28,8 +30,21 @@ export default {
     display: flex;
     flex-direction: column;
 
-    iframe {
+    &-container {
+        position: relative;
         width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+
+        iframe {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
     }
+
+
 }
 </style>
