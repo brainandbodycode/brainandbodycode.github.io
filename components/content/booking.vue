@@ -1,14 +1,14 @@
 <template>
     <client-only>
         <div class="booking">
-            <iframe src="https://squareup.com/appointments/buyer/widget/js2z1ki1mahpav/LR0522E325NZ1"
-                style="min-height: 500px; width: 100%; height: 100%; border: none;" />
+            <iframe src="https://www.massagebook.com/biz/brain-and-body-therapy?wmode=opaque#services" width="100%"
+                data-embed="true" frameborder="0" height="1000" />
         </div>
     </client-only>
 </template>
 
-<style lang="scss">
+<!-- <style lang="scss">
 .booking {
     height: 600px;
 }
-</style>
+</style> -->
