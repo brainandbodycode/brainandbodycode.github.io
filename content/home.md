@@ -2,7 +2,7 @@
 ---
 src: /img/index-hero-img.jpeg
 ---
-# WHY BRAIN AND BODY THERAPY?
+# Why Brain and Body Therapy?
 
 At **Brain and Body Therapy** we treat the body as a whole and utilize various treatment techniques to harmonize the different systems involved in keeping our bodies alive. One of our goals is to lessen the barrier of self-care by providing in-home services, meaning we travel to your house for your session! We specialize in pregnancy and postpartum massage as well as pediatric bodywork. Our techniques include cupping, craniosacral, swedish / relaxation, and Masgutova Neurosensorimotor Reflex Integration (MNRI).
 ::
@@ -13,7 +13,7 @@ At **Brain and Body Therapy** we treat the body as a whole and utilize various t
 ::s-item
 ---
 title: Adults
-src: /img/blog/baby.jpeg
+src: /img/home-adults.jpeg
 flip: true
 prices:
     - $75 for 60 minutes
@@ -34,7 +34,7 @@ Adults can also benefit from Musgutova Neurosensorimotor Reflex Integration (MNR
 ::s-item
 ---
 title: Pediatrics
-src: /img/blog/belly.jpeg
+src: /img/home-pediatrics.jpeg
 flip: false
 prices:
     - $60 for 60 minutes
@@ -63,7 +63,7 @@ Primarily utilizing techniques in Masgutova Neurosensorimotor Reflex Integration
 ::s-item
 ---
 title: Corporate
-src: /img/blog/back.jpeg
+src: /img/home-corporate.jpeg
 flip: true
 ---
 [Book a corporate massage](/#)
@@ -114,7 +114,6 @@ name: HALEY R.
 ---
 ::
 ::
-<!-- end grid -->
 
 ::grid-1
 ::quote
@@ -123,14 +122,11 @@ quote: As a physical therapist I have worked with and experienced a lot of massa
 name: BROOKE L.
 ---
 ::
-<!-- end quotes -->
 
 ::
-<!-- end grid -->
 
 ::grid-1
 ## Lets start our conversation
 ::contact-form
 ::
 ::
-<!-- end grid -->
