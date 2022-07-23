@@ -5,12 +5,9 @@ Buy a gift card
 ::
 
 
-::grid-1
-
-::booking
-::
-
-#### Please message us directly if you cannot find a time that fits your schedule.<br /> Sometimes we have last minute opportunities.
+::grid-gold
+#left
+### Please message us directly if you cannot find a time that fits your schedule. Sometimes we have last minute opportunities.
 ::contact-form
 ::
 ::
