@@ -1,7 +1,6 @@
 ---
 title: Pregnancy Massage
 img: /img/blog/belly.jpeg
-keywords: services
 ---
 Our goal during pregnancy massage is to help mama feel good, no matter what trimester. We will provide extra support pillows for you to lay comfortably on your side while we work on your target areas. We’ll incorporate long flowing strokes to help with circulation but also provide you with deeper pressure to help relax those tight muscles.
 

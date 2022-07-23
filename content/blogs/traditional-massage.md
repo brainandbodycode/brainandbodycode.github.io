@@ -1,7 +1,6 @@
 ---
 title: Traditional Massage
 img: /img/blog/back.jpeg
-keywords: services
 ---
 We provide in-home services for the highest level of relaxation. Combining our knowledge of the brain-body system and applying traditional massage applications you can expect a wonderful blend of therapeutic work with a relaxing feel. Addressing tension headaches through craniosacral work; improving blood circulation through intentional massage strokes towards the heart; improving joint range of motion through joint mobilization and pin/stretching of the surrounding muscles; and decreasing stiffness through muscle relaxation are just a few benefits to receiving massage. 
 
