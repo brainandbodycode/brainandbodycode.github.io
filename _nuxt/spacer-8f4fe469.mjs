@@ -1,1 +1,0 @@
-import{a as r,o as s,b as a,s as t}from"./entry-4e63f44b.mjs";const c={props:{size:{type:String,required:!0}}};function n(_,o,e,p,i,l){return s(),a("div",{class:"spacer",style:t({height:`var(${e.size})`})},null,4)}var d=r(c,[["render",n]]);export{d as default};
