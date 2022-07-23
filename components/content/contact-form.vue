@@ -42,10 +42,10 @@ export default {
 .contact-form {
     display: flex;
     flex-direction: column;
-    // background-color: var(--color4);
-    border: 1px solid var(--black);
+    // background-color: var(--white);
+    // border: 1px solid var(--black);
     border-radius: 5px;
-    padding: 20px;
+    // padding: 20px;
 
     input,
     textarea {

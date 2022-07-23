@@ -2,7 +2,7 @@
     <div class="massage-type">
         <div class="grid">
             <div class="massage-type-content" :class="{ flip: flip }">
-                <h3>{{ title }}</h3>
+                <h2>{{ title }}</h2>
                 <slot />
             </div>
             <img class="massage-type-img" :class="{ flip: flip }" :src="`${img}`" :alt="title" />

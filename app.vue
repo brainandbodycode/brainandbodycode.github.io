@@ -33,7 +33,6 @@ function getScrollPercent() {
 
 export default {
   mounted() {
-    // console.log("mounted");
     let hasUpdated = false
     function onScroll() {
       hasUpdated = false
@@ -58,6 +57,11 @@ useHead({
   charset: 'utf-8',
   meta: [
     { name: 'description', content: 'Traveling massage therapists come to your home within the greater Spokane area. Providing relaxation massage, pregnancy massage, therapeutic massage, stretching, craniosacral therapy (CST), Masgutova Neurosensorimotor Reflex Integration (MNRI), infant massage and pediatric bodywork.' }
+  ],
+  link: [
+    { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+    { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
+    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap' }
   ],
   htmlAttrs: {
     lang: 'en'

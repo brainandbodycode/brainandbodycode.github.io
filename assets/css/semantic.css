@@ -3,6 +3,7 @@
  */
 
 :root {
+    --header-scale: 1.25;
     --scroll-position: 50%;
     --black: #1b1c1d;
     --grey: #aaa;
@@ -16,9 +17,11 @@
     --color2: #98d7e9;
     --color3: #ddf1f8;
     --color4: #feb06a;
+    --color5: hwb(28 42% 0% / 0.25);
+    --color6: #ddf1f885;
 
     --background-body: #fff;
-    --background: #efefef;
+    --background: #fff;
     --background-alt: #f7f7f7;
     --selection: #9e9e9e;
     --text-main: var(--black);
@@ -561,8 +564,7 @@ input[type='range']:focus::-ms-fill-upper {
 
 a {
     text-decoration: none;
-    color: #0076d1;
-    color: var(--links);
+    color: inherit;
 }
 
 a:hover {

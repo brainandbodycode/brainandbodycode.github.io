@@ -21,6 +21,7 @@
     grid-row: content-footer;
     grid-column: content-main;
     position: relative;
+    border-top: 1px solid var(--color3);
 
     &-contact {
         grid-column-start: main-start;

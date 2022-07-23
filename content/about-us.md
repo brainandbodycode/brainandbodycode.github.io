@@ -26,18 +26,18 @@ When I’m not working I enjoy all the benefits the great Pacific Northwest has 
 ::
 
 ::grid-1
-##### Education
+### Education
 
 - Therapeutic Connections School of Massage - **Certified Massage Therapist, 2020**
 - Spokane Falls Community College AAS - **Occupational Therapy Assistant, 2017**
 
-##### Professional Trainings
+### Professional Trainings
 
 - Pre-and Perinatal Massage Therapy 
 - CranioSacral Therapy 1 (CS1); Assessment of Central Nervous System and Fascia for Full Body Treatment Protocol
 - Touch For Health – Levels 1 and 2
 
-##### MNRI Courses
+### MNRI Courses
 
 - MNRI Dynamic and Postural Reflex Integration x2
 - MNRI Oral-Facial Reflex Integration
@@ -51,7 +51,7 @@ When I’m not working I enjoy all the benefits the great Pacific Northwest has 
 - MNRI Family Conference 
 - Bal‑A‑Vis‑X: Rhythmic Balance/Auditory/Vision (BAVX) Level 1 and 2 Training
 
-##### Afiliations 
+### Afiliations 
 - AMTA
 - NBCOT
 ::

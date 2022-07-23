@@ -26,8 +26,14 @@ export default {
 .content-highlight {
     grid-template-rows: [content-top] auto;
     align-items: stretch;
+    padding: 60px 0;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background-image: linear-gradient(145deg, var(--white), var(--color5));
 
     &-content {
+        position: relative;
         grid-column-start: main-start;
         grid-column-end: col-start 6;
         grid-row: content-top / span 1;
@@ -39,6 +45,7 @@ export default {
     }
 
     &-img {
+        position: relative;
         grid-column-start: col-start 6;
         grid-column-end: main-end;
         grid-row: content-top / span 1;

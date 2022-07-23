@@ -5,7 +5,7 @@
             <div class="s-item-content-title">
                 <h1>{{ title }}</h1>
                 <ul v-if="prices.length">
-                    <li v-for="(price, index) in prices" :key="index">{{ price }}</li>
+                    <li v-for="(price, index) in prices" :key="index"><strong>{{ price }}</strong></li>
                 </ul>
             </div>
             <slot />
@@ -95,10 +95,6 @@ export default {
             ul {
                 display: flex;
                 flex-direction: column;
-            }
-
-            li {
-                font-weight: 700;
             }
         }
     }
