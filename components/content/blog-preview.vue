@@ -1,6 +1,6 @@
 <template>
     <nuxt-link class="blogpreview" :to="path">
-        <img :src="`/assets/img/blog/${img}`" :alt="title" />
+        <img :src="`/img/blog/${img}`" :alt="title" />
         <span>{{ title }}</span>
     </nuxt-link>
 </template>

@@ -2,7 +2,7 @@
     <nav class="cnav">
         <div class="grid">
             <a class="cnav-logo" href="/">
-                <img src="/assets/img/header-logo.png" alt="Brain and Body Therapy" width="775" height="228" />
+                <img src="/img/header-logo.png" alt="Brain and Body Therapy" width="775" height="228" />
             </a>
             <ul>
                 <li>

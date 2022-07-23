@@ -36,7 +36,7 @@
             placeholder="I would like more information on how to relieve tension, help my kiddo, receive an in-home massage…"></textarea>
         </label>
       </form>
-      <img class="pg-contact-map" src="/assets/img/contact-map.png" alt="Map" />
+      <img class="pg-contact-map" src="/img/contact-map.png" alt="Map" />
     </div>
   </div>
 </template>

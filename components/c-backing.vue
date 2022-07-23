@@ -1,6 +1,6 @@
 <template>
     <div class="cbacking">
-        <div class="cbacking-img" :style="{ backgroundImage: `url(/assets/img/index-hero-img.jpeg)` }"></div>
+        <div class="cbacking-img" :style="{ backgroundImage: `url(/img/index-hero-img.jpeg)` }"></div>
         <div class="cbacking-top"></div>
     </div>
 </template>

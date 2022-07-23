@@ -9,11 +9,11 @@
                 <span>brainandbodytherapy@gmail.com</span>
                 <div class="cfooter-contact-social">
                     <a href="https://www.instagram.com/brainandbodytherapy/" rel="noreferrer" target="_blank">
-                        <img src="/assets/img/icon-ig.svg" alt="Visit Brain and Body Therapy's Instagram" width="32"
+                        <img src="/img/icon-ig.svg" alt="Visit Brain and Body Therapy's Instagram" width="32"
                             height="32">
                     </a>
                     <a href="https://fb.me/brainandbodytherapy" rel="noreferrer" target="_blank">
-                        <img src="/assets/img/icon-fb.svg" alt="Visit Brain and Body Therapy's Facebook" width="32"
+                        <img src="/img/icon-fb.svg" alt="Visit Brain and Body Therapy's Facebook" width="32"
                             height="32">
                     </a>
                 </div>

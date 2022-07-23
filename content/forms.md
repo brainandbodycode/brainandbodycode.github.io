@@ -18,7 +18,7 @@ Please download and fill out the corresponding form to your service request.
 ::col-3
 ::::form-item
 ---
-img: /assets/img/form-baby.jpeg
+img: /img/form-baby.jpeg
 url: \#
 title: Pediatric
 ---
@@ -28,7 +28,7 @@ title: Pediatric
 ::col-3
 ::::form-item
 ---
-img: /assets/img/form-baby.jpeg
+img: /img/form-baby.jpeg
 url: \#
 title: Adult
 ---
@@ -38,7 +38,7 @@ title: Adult
 ::col-3
 ::::form-item
 ---
-img: /assets/img/form-baby.jpeg
+img: /img/form-baby.jpeg
 url: \#
 title: Pregnancy
 ---

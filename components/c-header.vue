@@ -2,7 +2,7 @@
     <header class="cheader">
         <div class="grid">
             <a class="cheader-logo" href="/">
-                <img src="/assets/img/header-logo.png" alt="Brain and Body Therapy" width="800" height="400" />
+                <img src="/img/header-logo.png" alt="Brain and Body Therapy" width="800" height="400" />
             </a>
             <form class="cheader-search" @submit.prevent="onSubmit">
                 <input type="search" placeholder="Search" v-model="search" />

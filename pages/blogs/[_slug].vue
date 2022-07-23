@@ -5,7 +5,7 @@
             <div class="article-content">
                 <content-renderer :value="doc" />
             </div>
-            <img class="article-img" :src="`/assets/img/blog/${doc.img}`" :alt="doc.title" />
+            <img class="article-img" :src="`/img/blog/${doc.img}`" :alt="doc.title" />
         </content-doc>
     </article>
 </template>

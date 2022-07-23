@@ -1,6 +1,6 @@
 ::highlight
 ---
-src: /assets/img/index-hero-img.jpeg
+src: /img/index-hero-img.jpeg
 ---
 # WHY BRAIN AND BODY THERAPY?
 
@@ -14,7 +14,7 @@ At **Brain and Body Therapy** we treat the body as a whole and utilize various t
 ::s-item
 ---
 title: Adults
-src: /assets/img/blog/baby.jpeg
+src: /img/blog/baby.jpeg
 flip: true
 prices:
     - $75 for 60 minutes
@@ -32,7 +32,7 @@ Adults can also benefit from Musgutova Neurosensorimotor Reflex Integration (MNR
 ::s-item
 ---
 title: Pediatrics
-src: /assets/img/blog/belly.jpeg
+src: /img/blog/belly.jpeg
 flip: false
 prices:
     - $60 for 60 minutes
@@ -58,7 +58,7 @@ Primarily utilizing techniques in Masgutova Neurosensorimotor Reflex Integration
 ::s-item
 ---
 title: Corporate
-src: /assets/img/blog/back.jpeg
+src: /img/blog/back.jpeg
 flip: true
 ---
 Are you ready to change up your next team meeting or work event? Whether you want to treat your employees or boost moral in your company, having an onsite massage therapist will do the trick. We provide onsite relaxation with table or chair massage depending on your needs and space. We can set up in a vacant meeting room or even in your lobby. Don’t have space? No worries, we can skip the set up and bring the massage to their desk. Adding a massage to your business practice benefits both employees and employers.

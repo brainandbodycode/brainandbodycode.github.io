@@ -1,7 +1,7 @@
 
 ::s-item
 ---
-src: /assets/img/blog/baby.jpeg
+src: /img/blog/baby.jpeg
 ---
 # Adults
 We provide in-home services for the highest level of relaxation. Combining our knowledge of the brain-body system and applying traditional massage applications you can expect a wonderful blend of therapeutic work with a relaxing feel. Addressing tension headaches through craniosacral work; improving blood circulation through intentional massage strokes towards the heart; improving joint range of motion through joint mobilization and pin/stretching of the surrounding muscles; and decreasing stiffness through muscle relaxation are just a few benefits to receiving massage. 
@@ -17,7 +17,7 @@ $110 for 90 minutes
 
 ::s-item
 ---
-src: /assets/img/blog/belly.jpeg
+src: /img/blog/belly.jpeg
 flip: true
 ---
 # Pediatrics
@@ -41,7 +41,7 @@ $60 for 60 minutes
 
 ::s-item
 ---
-src: /assets/img/blog/back.jpeg
+src: /img/blog/back.jpeg
 ---
 # Corporate
 Are you ready to change up your next team meeting or work event? Whether you want to treat your employees or boost moral in your company, having an onsite massage therapist will do the trick. We provide onsite relaxation with table or chair massage depending on your needs and space. We can set up in a vacant meeting room or even in your lobby. Don’t have space? No worries, we can skip the set up and bring the massage to their desk. Adding a massage to your business practice benefits both employees and employers.
