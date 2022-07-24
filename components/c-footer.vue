@@ -16,12 +16,11 @@
 <style lang="scss">
 .cfooter {
     width: 100%;
-    background-color: var(--color3);
+    background-color: var(--color1);
     padding: 30px 0;
     grid-row: content-footer;
     grid-column: content-main;
     position: relative;
-    border-top: 1px solid var(--color1);
 
     &-contact {
         grid-column-start: main-start;
