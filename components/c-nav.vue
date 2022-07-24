@@ -1,9 +1,9 @@
 <template>
     <nav class="cnav">
         <div class="grid">
-            <a class="cnav-logo" href="/">
+            <nuxt-link class="cnav-logo" to="/">
                 <img src="/img/header-logo.png" alt="Brain and Body Therapy" width="775" height="228" />
-            </a>
+            </nuxt-link>
             <ul>
                 <li>
                     <nuxt-link to="/">Home</nuxt-link>
