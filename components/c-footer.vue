@@ -2,12 +2,23 @@
     <footer class="cfooter">
         <div class="grid">
             <div class="cfooter-contact">
-                <strong>Brain and Body Therapy</strong>
+                <p class="h3">Brain and Body Therapy</p>
                 <p>Spokane, WA, 99206</p>
                 <p>United States</p>
                 <p>509-879-7363</p>
                 <p>brainandbodytherapy@gmail.com</p>
-                <strong class="cfooter-contact-copy">Copyright © 2021-2022 Brain and Body Therapy. All Rights Reserved.</strong>
+                <div class="cfooter-contact-social">
+                    <a class="cnav-content-ig" href="https://www.instagram.com/brainandbodytherapy/" rel="noreferrer"
+                        target="_blank">
+                        <img src="/img/icon-ig-light.svg" alt="Visit Brain and Body Therapy's Instagram" width="32"
+                            height="32">
+                    </a>
+                    <a href="https://fb.me/brainandbodytherapy" rel="noreferrer" target="_blank">
+                        <img src="/img/icon-fb-light.svg" alt="Visit Brain and Body Therapy's Facebook" width="32"
+                            height="32">
+                    </a>
+                </div>
+                <p class="cfooter-contact-copy">Copyright © 2021-2022 Brain and Body Therapy. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
@@ -28,12 +39,24 @@
         display: flex;
         flex-direction: column;
 
+        .h3 {
+            margin-bottom: 20px;
+        }
+
         p {
             margin: 0;
         }
 
         &-copy {
-            margin-top: 30px;
+            font-size: 12px;
+            padding-top: 10px;
+        }
+
+        &-social {
+            margin-top: 20px;
+            a {
+                margin-right: 10px;
+            }
         }
     }
 

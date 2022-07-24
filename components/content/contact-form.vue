@@ -1,31 +1,35 @@
 <template>
-    <form class="contact-form" @submit.prevent="onSubmit">
-        <label for="fname">
-            <span>First Name</span>
-            <input type="text" name="fname" placeholder="First name">
-        </label>
-        <label for="lname">
-            <span>Last Name</span>
-            <input type="text" name="lname" placeholder="Last name">
-        </label>
-        <label for="email">
-            <span>Email</span>
-            <input type="email" name="email" placeholder="Email">
-        </label>
-        <label for="subject">
-            <span>Subject</span>
-            <input type="text" name="subject" placeholder="Subject">
-        </label>
-        <label for="travel">
-            <span>What area will we be traveling to?</span>
-            <input type="text" name="travel" placeholder="Downtown Spokane, Spokane Valley, Deer Park, Liberty Lake">
-        </label>
-        <label for="message">
-            <span>Message</span>
-            <textarea name="message" cols="30" rows="10"
-                placeholder="I would like more information on how to relieve tension, help my kiddo, receive an in-home massage…"></textarea>
-        </label>
-    </form>
+    <div>
+        <h2 class="contact-heading">Lets start our conversation</h2>
+        <form class="contact-form" @submit.prevent="onSubmit">
+            <label for="fname">
+                <span>First Name</span>
+                <input type="text" name="fname" placeholder="First name">
+            </label>
+            <label for="lname">
+                <span>Last Name</span>
+                <input type="text" name="lname" placeholder="Last name">
+            </label>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" name="email" placeholder="Email">
+            </label>
+            <label for="subject">
+                <span>Subject</span>
+                <input type="text" name="subject" placeholder="Subject">
+            </label>
+            <label for="travel">
+                <span>What area will we be traveling to?</span>
+                <input type="text" name="travel"
+                    placeholder="Downtown Spokane, Spokane Valley, Deer Park, Liberty Lake">
+            </label>
+            <label for="message">
+                <span>Message</span>
+                <textarea name="message" cols="30" rows="10"
+                    placeholder="I would like more information on how to relieve tension, help my kiddo, receive an in-home massage…"></textarea>
+            </label>
+        </form>
+    </div>
 </template>
 
 <script>
@@ -39,6 +43,10 @@ export default {
 </script>
 
 <style lang="scss">
+.contact-heading {
+    position: relative;
+}
+
 .contact-form {
     display: flex;
     flex-direction: column;

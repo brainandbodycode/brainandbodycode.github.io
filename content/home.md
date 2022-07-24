@@ -1,13 +1,14 @@
 ::highlight
 ---
 src: /img/index-hero-img.jpeg
+florish: true
 ---
 # <span class="bright">Welcome!</span> Why Brain and Body Therapy?
 
 At **Brain and Body Therapy** we treat the body as a whole and utilize various treatment techniques to harmonize the different systems involved in keeping our bodies alive. One of our goals is to lessen the barrier of self-care by providing in-home services, meaning we travel to your house for your session! We specialize in pregnancy and postpartum massage as well as pediatric bodywork. Our techniques include cupping, craniosacral, swedish / relaxation, and Masgutova Neurosensorimotor Reflex Integration (MNRI).
 ::
 
-::spacer{size="--space-large"}
+::shape-spacer{src="/img/shapes/spacer-loop.svg"}
 ::
 
 ::s-item
@@ -118,18 +119,15 @@ name: BROOKE L.
 ---
 ::
 
-## Lets start our conversation
-
 ::contact-form
 ::
 
 #right
-::rounded-img
----
-src: /img/quote-plant.jpeg
-alt: MNRI
----
+::shape-block{src="/img/shapes/arrow-heart-left.svg" centerX="false" centerY="false"}
 ::
 
 
+::
+
+::shape-spacer{src="/img/shapes/spacer-loop.svg"}
 ::

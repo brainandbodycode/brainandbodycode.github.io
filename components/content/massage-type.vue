@@ -2,7 +2,7 @@
     <div class="massage-type">
         <div class="grid">
             <div class="massage-type-content" :class="{ flip: flip }">
-                <h2>{{ title }}</h2>
+                <h1>{{ title }}</h1>
                 <slot />
             </div>
             <img class="massage-type-img" :class="{ flip: flip }" :src="`${img}`" :alt="title" />
@@ -34,9 +34,18 @@ export default {
     grid-template-rows: [content] auto;
 
     &-content {
+        position: relative;
         grid-column-start: main-start;
         grid-column-end: col-start 6;
         grid-row: content;
+    }
+
+    &-content::before {
+        position: absolute;
+        content: url(/img/shapes/star.svg);
+        transform: scale(0.3333);
+        top: -26px;
+        left: -34px;
     }
 
     &-content.flip {

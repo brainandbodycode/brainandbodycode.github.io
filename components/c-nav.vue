@@ -63,9 +63,10 @@
         top: 0;
         position: fixed;
         z-index: 10;
-        background-color: var(--white);
+        background-color: rgba(255, 255, 255, 0.95);
         width: 100%;
         padding: 5px 0 5px 0;
+        box-shadow: 0px 1px 3px #00000011;
 
         &-logo {
             grid-column-start: main-start;

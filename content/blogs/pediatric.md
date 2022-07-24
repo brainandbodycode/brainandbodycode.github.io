@@ -19,3 +19,6 @@ Improving attention, balance, coordination, circulation, sensory organization, m
 #left
 While Brain and Body Therapy works with children diagnosed with ADHD, autism, sensory processing, and CP, there are many children who don’t qualify for servies but could benefit from bodywork. 
 ::
+
+::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::

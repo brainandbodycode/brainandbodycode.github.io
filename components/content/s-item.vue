@@ -56,6 +56,8 @@ export default {
         max-height: 400px;
     }
 
+
+
     &-img.flip {
         grid-column-start: main-start;
         grid-column-end: col-start 6;
@@ -66,6 +68,7 @@ export default {
         grid-column-end: col-start 7;
         grid-row: content;
         display: block;
+        position: relative;
 
         a {
             background-color: var(--color4);
@@ -98,6 +101,14 @@ export default {
                 flex-direction: column;
             }
         }
+    }
+
+    &-content::before {
+        position: absolute;
+        content: url(/img/shapes/star.svg);
+        transform: scale(0.3333);
+        top: -26px;
+        left: -34px;
     }
 
     &-content.flip {

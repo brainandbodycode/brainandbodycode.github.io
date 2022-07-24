@@ -2,3 +2,6 @@
 ::booking
 ::
 ::
+
+::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::

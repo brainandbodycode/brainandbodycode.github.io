@@ -17,7 +17,7 @@
     grid-row: content-main;
     grid-column: content-main;
     position: relative;
-    padding: 20px 0 60px 0;
+    padding: 20px 0 0px 0;
   }
 }
 </style>

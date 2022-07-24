@@ -33,19 +33,13 @@ export default {
     &-quotebefore::before,
     &-quoteafter::after {
         position: absolute;
-        top: -14px;
-        font-size: 2em;
-        color: var(--color1);
     }
 
     &-quotebefore::before {
-        content: '“';
-        left: -16px;
-    }
-
-    &-quoteafter::after {
-        content: '”';
-        right: -16px;
+        content: url(/img/shapes/star.svg);
+        transform: scale(0.3333);
+        top: -34px;
+        left: -38px;
     }
 
     &-name {

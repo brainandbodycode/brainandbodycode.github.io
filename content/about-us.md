@@ -3,6 +3,7 @@
 ---
 src: /img/carla-pose.jpeg
 bgsrc: /img/index-hero-img.jpeg
+florish: true
 ---
 # <span class="bright">Hello!</span> My name is Carla Eagleburger.
 
@@ -13,7 +14,7 @@ MNRI® Core in Training
 I know it sounds cliche, but **I always knew I wanted to help people**. During occupational therapy assistant (OTA) school, I knew I had made the right career choice and was enthusiastic about working with children. 
 ::
 
-::spacer{size="--space-large"}
+::shape-spacer{src="/img/shapes/spacer-loop.svg"}
 ::
 
 ::grid-gold
@@ -66,4 +67,7 @@ When I’m not working I enjoy all the benefits the great Pacific Northwest has 
 - AMTA
 - NBCOT
 
+::
+
+::shape-spacer{src="/img/shapes/spacer-loop.svg"}
 ::

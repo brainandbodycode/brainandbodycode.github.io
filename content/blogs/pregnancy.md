@@ -26,3 +26,6 @@ Many studies have statically found regular massage during pregnancy improves qua
 
 If you are considered a high-risk pregnancy, are experiencing a difficult pregnancy, or have had past complications, we will need written consent from your providing care provider before receiving massage. (i.e., placenta previa, premature labor, blood clotting disorders or diabetes).
 ::
+
+::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::

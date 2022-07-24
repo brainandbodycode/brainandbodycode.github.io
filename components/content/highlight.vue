@@ -4,7 +4,7 @@
             <div class="content-highlight-bg-img" :style="{ backgroundImage: `url(${bgsrc_})` }" />
             <div class="content-highlight-bg-color" />
         </div>
-        <div class="content-highlight-content">
+        <div class="content-highlight-content" :class="{ florish: florish }">
             <slot />
         </div>
         <img class="content-highlight-img" :src="src" :alt="alt">
@@ -26,6 +26,10 @@ export default {
             type: String,
             default: ''
         },
+        florish: {
+            type: Boolean,
+            default: false
+        },
     },
     computed: {
         bgsrc_() {
@@ -39,8 +43,7 @@ export default {
 .content-highlight {
     grid-template-rows: [spacing-top] 60px [content-top] auto [spacing-bottom] 60px [overlap-bottom] 60px;
     align-items: stretch;
-    overflow: hidden;
-    // background-color: var(--color5);
+    position: relative;
 
     &-bg {
         position: relative;
@@ -50,6 +53,8 @@ export default {
         overflow: hidden;
         border-radius: var(--border-radius);
         border: 1px solid var(--color4);
+        overflow: hidden;
+        background-color: var(--white);
 
         &-img {
             background-size: cover;
@@ -81,6 +86,17 @@ export default {
         display: flex;
         flex-direction: column;
         z-index: 2;
+    }
+
+    &-content::before {
+        position: absolute;
+        top: -33px;
+        left: -41px;
+        transform: scale(0.5) rotate(0deg);
+    }
+
+    &-content.florish::before {
+        content: url(/img/shapes/word-highlight.svg);
     }
 
     &-img {
