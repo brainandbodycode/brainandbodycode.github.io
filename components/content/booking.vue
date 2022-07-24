@@ -1,8 +1,8 @@
 <template>
     <client-only>
         <div class="booking">
-            <iframe src="https://www.massagebook.com/biz/brain-and-body-therapy?wmode=opaque#services" width="100%"
-                data-embed="true" frameborder="0" height="1000" />
+            <iframe src="https://squareup.com/appointments/book/mgxylgivwbekfq/L7CME1N8122TV/start" width="100%"
+                data-embed="true" frameborder="0" height="1000" referrerpolicy="noreferrer" default-src="a" />
         </div>
     </client-only>
 </template>
