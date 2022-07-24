@@ -1,1 +1,0 @@
-@charset "UTF-8";.quote{display:flex;flex-direction:column}.quote-quoteafter,.quote-quotebefore{position:relative}.quote-quoteafter:after,.quote-quotebefore:before{color:var(--color1);font-size:2em;position:absolute;top:-14px}.quote-quotebefore:before{content:"\201c";left:-16px}.quote-quoteafter:after{content:"\201d";right:-16px}.quote-name{color:var(--color1);font-weight:700}
