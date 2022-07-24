@@ -12,7 +12,7 @@ src: /img/blog/mnri.png
 Masgutova Neurosensorimotor Reflex Integration or MNRI is referred to by many as the “missing link”. It focuses on re-patterning primitive reflexes that may have been missed or need to be reintegrated due to trauma. By re-patterning reflexes it allows for the brain and body system to be in a state of harmony by allowing each system to work properly. These reflexes are imperative to our development and they provide the foundation of our well-being for our emotional, cognitive, and  physical states. MNRI was created by Svetlana Masgutova, PHD from Poland. This therapy evolved out of  trauma experienced first hand by Dr. Masgutova. She sought a way to connect with the population she was working with and did so through simple movements and tactile input. 
 ::
 
-::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::spacer{size="--space-small"}
 ::
 
 ::grid-1
