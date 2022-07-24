@@ -34,7 +34,7 @@ export default {
         height: 150px;
         object-fit: cover;
         object-position: 50% 50%;
-        border-radius: 5px;
+        border-radius: var(--border-radius);
     }
 
     p {

@@ -52,7 +52,7 @@ export default {
         height: 100%;
         object-fit: cover;
         object-position: 50% 50%;
-        border-radius: 5px;
+        border-radius: var(--border-radius);
         max-height: 400px;
     }
 
@@ -72,7 +72,7 @@ export default {
             padding: 10px 10px;
             width: 240px;
             text-align: center;
-            border-radius: 5px;
+            border-radius: var(--border-radius);
             font-weight: 700;
             box-sizing: border-box;
             display: inline-block;

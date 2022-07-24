@@ -48,7 +48,8 @@ export default {
         grid-column-start: full-start;
         grid-column-end: full-end;
         overflow: hidden;
-        border-radius: 5px;
+        border-radius: var(--border-radius);
+        border: 1px solid var(--color4);
 
         &-img {
             background-size: cover;
@@ -92,7 +93,7 @@ export default {
         object-fit: cover;
         object-position: 50% 50%;
         z-index: 1;
-        border-radius: 5px;
+        border-radius: var(--border-radius);
     }
 }
 </style>

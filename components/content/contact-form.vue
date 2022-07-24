@@ -44,7 +44,7 @@ export default {
     flex-direction: column;
     // background-color: var(--white);
     // border: 1px solid var(--black);
-    border-radius: 5px;
+    border-radius: var(--border-radius);
     // padding: 20px;
 
     input,

@@ -50,7 +50,7 @@ export default {
         grid-row: content;
         width: 100%;
         height: auto;
-        border-radius: 5px;
+        border-radius: var(--border-radius);
     }
 
     &-img.flip {

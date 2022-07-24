@@ -93,7 +93,7 @@
         .cnav-cta a {
             background-color: var(--color4);
             padding: 10px 20px;
-            border-radius: 5px;
+            border-radius: var(--border-radius);
         }
 
         a {
@@ -120,7 +120,7 @@
             z-index: 10;
             background-color: var(--white);
             transform: translate(-50%, 0);
-            border-radius: 5px;
+            border-radius: var(--border-radius);
             border: 1px solid var(--color3);
             width: 200px;
             padding: 0 5px;

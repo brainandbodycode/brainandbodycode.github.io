@@ -19,6 +19,6 @@ export default {
 
 <style lang="scss">
 .rounded-img {
-    border-radius: 5px;
+    border-radius: var(--border-radius);
 }
 </style>
