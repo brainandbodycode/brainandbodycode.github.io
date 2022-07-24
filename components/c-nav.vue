@@ -23,9 +23,6 @@
                         <li>
                             <nuxt-link to="/blog">Blog</nuxt-link>
                         </li>
-                        <li>
-                            <nuxt-link to="/forms">Forms</nuxt-link>
-                        </li>
                     </ul>
                 </li>
                 <li class="cnav-cta">
@@ -42,23 +39,6 @@
                             height="32">
                     </a>
                 </li>
-                <!-- <li class="cnav-extra">
-                    <span>LEARN MORE</span>
-                    <ul>
-                        <li>
-                            <nuxt-link to="/massage-types">TYPES OF MASSAGE/BODYWORK</nuxt-link>
-                        </li>
-                        <li>
-                            <nuxt-link to="/blogs/mnri">MNRI</nuxt-link>
-                        </li>
-                        <li>
-                            <nuxt-link to="/blog">BLOG</nuxt-link>
-                        </li>
-                        <li>
-                            <nuxt-link to="/forms">FORMS</nuxt-link>
-                        </li>
-                    </ul>
-                </li> -->
             </ul>
         </div>
     </nav>
