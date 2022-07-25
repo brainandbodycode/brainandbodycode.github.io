@@ -170,17 +170,27 @@ address {
     font-style: normal;
 }
 
-a[href^='mailto\:']::before {
-    content: '📧 ';
+a[href^='mailto\:'],
+a[href^='tel\:'] {
+    text-decoration: underline;
 }
 
-a[href^='tel\:']::before {
-    content: '📞 ';
+a[href^='mailto\:']:hover,
+a[href^='tel\:']:hover {
+    text-decoration: none;
 }
 
-a[href^='sms\:']::before {
-    content: '💬 ';
-}
+// a[href^='mailto\:']::before {
+//     content: '📧 ';
+// }
+
+// a[href^='tel\:']::before {
+//     content: '📞 ';
+// }
+
+// a[href^='sms\:']::before {
+//     content: '💬 ';
+// }
 
 mark {
     background-color: var(--highlight);

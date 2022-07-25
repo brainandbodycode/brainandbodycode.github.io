@@ -5,8 +5,8 @@
                 <p class="h3">Brain and Body Therapy</p>
                 <p>Spokane, WA, 99206</p>
                 <p>United States</p>
-                <p>509-879-7363</p>
-                <p>brainandbodytherapy@gmail.com</p>
+                <p><a href="tel:509-879-7363">509-879-7363</a></p>
+                <p><a href="mailto:brainandbodytherapy@gmail.com">brainandbodytherapy@gmail.com</a></p>
                 <div class="cfooter-contact-social">
                     <a class="cnav-content-ig" href="https://www.instagram.com/brainandbodytherapy/" rel="noreferrer"
                         target="_blank">
@@ -54,6 +54,7 @@
 
         &-social {
             margin-top: 20px;
+
             a {
                 margin-right: 10px;
             }
