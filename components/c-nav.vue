@@ -19,6 +19,9 @@
                         width="775" height="228" />
                 </nuxt-link>
                 <ul class="cnav-content-list">
+                    <li>
+                        <nuxt-link to="/">Services</nuxt-link>
+                    </li>
                     <li class="about-us-desktop">
                         <nuxt-link to="/about-us">About Us</nuxt-link>
                     </li>
@@ -92,7 +95,7 @@
 
             @include mobile {
                 grid-column-start: main-start;
-                grid-column-end: col-start 4;
+                grid-column-end: col-start 3;
             }
 
             img {
@@ -129,7 +132,7 @@
             }
 
             @include mobile {
-                grid-column-start: col-start 4;
+                grid-column-start: col-start 3;
                 grid-column-end: main-end;
             }
 
@@ -137,6 +140,11 @@
                 display: flex;
                 flex-direction: row;
                 margin: 0 10px;
+
+                @include mobile {
+                    margin: 0 5px;
+
+                }
             }
 
             .cnav-cta a {
@@ -196,14 +204,26 @@
         }
     }
 
-    .about-us-desktop,
+    .about-us-desktop {
+        @include tablet {
+            display: none;
+        }
+    }
+
+    .about-us-mobile {
+        display: none;
+
+        @include tablet {
+            display: block;
+        }
+    }
+
     .logo-desktop {
         @include mobile {
             display: none;
         }
     }
 
-    .about-us-mobile,
     .logo-mobile {
         display: none;
 

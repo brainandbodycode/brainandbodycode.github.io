@@ -46,7 +46,11 @@ export default {
     position: relative;
 
     @include tablet {
-        grid-template-rows: [content-main] auto;
+        grid-template-rows: [spacing-top] 450px [content-top] auto [spacing-bottom] auto [overlap-bottom] auto;
+    }
+
+    @include mobile {
+        grid-template-rows: [spacing-top] 350px [content-top] auto [spacing-bottom] auto [overlap-bottom] auto;
     }
 
     &-bg {
@@ -56,18 +60,17 @@ export default {
         grid-column-end: full-end;
         overflow: hidden;
         border-radius: var(--border-radius);
-        // border: 1px solid var(--color4);
         overflow: hidden;
         background-color: var(--white);
+
+        @include tablet {
+            grid-row: spacing-top / span 4;
+        }
 
         @media only screen and (max-width: 1200px) {
             border-left: none;
             border-right: none;
             border-radius: 0;
-        }
-
-        @include tablet {
-            grid-row: content-main;
         }
 
         &-img {
@@ -79,10 +82,6 @@ export default {
             left: 0;
             width: 100%;
             height: 100%;
-
-            @include tablet {
-                filter: blur(60px);
-            }
         }
 
         &-color {
@@ -106,10 +105,10 @@ export default {
         z-index: 2;
 
         @include tablet {
-            grid-row: content-main;
             grid-column-start: main-start;
             grid-column-end: main-end;
-            margin: 45px 0 30px 0;
+            border-radius: 0;
+            margin-top: 30px;
         }
     }
 
@@ -132,12 +131,15 @@ export default {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: 50% 50%;
+        object-position: 50% 15%;
         z-index: 1;
         border-radius: var(--border-radius);
 
         @include tablet {
-            display: none;
+            grid-row: spacing-top / span 1;
+            grid-column-start: full-start;
+            grid-column-end: full-end;
+            border-radius: 0;
         }
     }
 }

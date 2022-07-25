@@ -45,7 +45,7 @@ export default {
     }
 
     let hasUpdatedResize = false
-    const MIN_WIDTH = 600;
+    const MIN_WIDTH = 900;
     function onResize() {
       hasUpdatedResize = false
       const scale = clamp(window.innerWidth / MIN_WIDTH, 0.75, 1);
