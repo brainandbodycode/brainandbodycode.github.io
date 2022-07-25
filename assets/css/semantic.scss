@@ -13,6 +13,12 @@
     --space-medium: 60px;
     --space-small: 30px;
 
+    @include tablet {
+        --space-large: 30px;
+        --space-medium: 20px;
+        --space-small: 10px;
+    }
+
     --color1: #4f84a6;
     --color2: #98d7e9;
     --color3: #ddf1f8;

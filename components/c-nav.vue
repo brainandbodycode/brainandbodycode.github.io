@@ -5,7 +5,10 @@
             <div class="cnav-content-spacer" />
             <div class="grid">
                 <nuxt-link class="cnav-content-logo" to="/">
-                    <img src="/img/header-logo.png" alt="Brain and Body Therapy" width="775" height="228" />
+                    <img class="logo-desktop" src="/img/header-logo.png" alt="Brain and Body Therapy desktop logo"
+                        width="775" height="228" />
+                    <img class="logo-mobile" src="/img/header-logo-mobile.png" alt="Brain and Body Therapy mobile logo"
+                        width="775" height="228" />
                 </nuxt-link>
                 <ul class="cnav-content-list">
                     <li class="about-us-desktop">
@@ -83,11 +86,21 @@
                 grid-column-end: col-start 6;
             }
 
+            @include mobile {
+                grid-column-start: main-start;
+                grid-column-end: col-start 4;
+            }
+
             img {
                 height: 100%;
                 width: 100%;
                 object-fit: contain;
                 object-position: 50% 50%;
+
+                @include mobile {
+                    max-height: 60px;
+                    object-position: 0% 50%;
+                }
             }
         }
 
@@ -108,6 +121,11 @@
 
             @include tablet {
                 grid-column-start: col-start 6;
+                grid-column-end: main-end;
+            }
+
+            @include mobile {
+                grid-column-start: col-start 4;
                 grid-column-end: main-end;
             }
 
@@ -174,16 +192,18 @@
         }
     }
 
-    .about-us-desktop {
-        @include tablet {
+    .about-us-desktop,
+    .logo-desktop {
+        @include mobile {
             display: none;
         }
     }
 
-    .about-us-mobile {
+    .about-us-mobile,
+    .logo-mobile {
         display: none;
 
-        @include tablet {
+        @include mobile {
             display: block;
         }
     }

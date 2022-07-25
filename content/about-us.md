@@ -17,19 +17,7 @@ I know it sounds cliche, but **I always knew I wanted to help people**. During o
 ::shape-spacer{src="/img/shapes/spacer-loop.svg"}
 ::
 
-::grid-gold
----
-flip: true
----
-#left
-::rounded-img
----
-src: /img/about-carla-neptune.jpeg
-alt: MNRI
----
-::
-
-#right
+::about
 I graduated in 2017 as an OTA and started working in an outpatient pediatric clinic shortly after. My intentions were to help and enable children regardless of their current skill level, development, or diagnosis. Through this setting I was introduced to the Masgutova Neurosensorimotor Reflex Integration (MNRI®) method which was life changing for the population I was working with. I realized there was more to the brain-body connection that I currently knew and enrolled in a massage therapy program to broaden my knowledge and skill set.
 
 I graduated in 2020. During my training at massage school, I refined my skills and enhanced my passion to increase the quality of life of those around me. 
@@ -66,7 +54,6 @@ When I’m not working I enjoy all the benefits the great Pacific Northwest has 
 ### Afiliations 
 - AMTA
 - NBCOT
-
 ::
 
 ::shape-spacer{src="/img/shapes/spacer-loop.svg"}

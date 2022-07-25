@@ -18,10 +18,16 @@ body,
     grid-template-columns:
         [full-start] 20px [main-start] repeat(12, [col-start] 1fr) [main-end] 20px [full-end];
 
-    @media only screen and (max-width: 1024px) {
+    @include tablet {
         column-gap: 20px;
         grid-template-columns:
             [full-start] 10px [main-start] repeat(12, [col-start] 1fr) [main-end] 10px [full-end];
+    }
+
+    @include mobile {
+        column-gap: 5px;
+        grid-template-columns:
+            [full-start] 15px [main-start] repeat(12, [col-start] 1fr) [main-end] 15px [full-end];
     }
 }
 
@@ -81,48 +87,102 @@ small,
 .span-4:nth-child(3n + 1) {
     grid-column-start: main-start;
     grid-column-end: col-start 5;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-4:nth-child(3n + 2) {
     grid-column-start: col-start 5;
     grid-column-end: col-start 9;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-4:nth-child(3n + 3) {
     grid-column-start: col-start 9;
     grid-column-end: main-end;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-6:nth-child(2n + 1) {
     grid-column-start: main-start;
     grid-column-end: col-start 7;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-6:nth-child(2n + 2) {
     grid-column-start: col-start 7;
     grid-column-end: main-end;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-gold:nth-child(2n + 1) {
     grid-column-start: main-start;
     grid-column-end: col-start 8;
     grid-row: 1;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-gold:nth-child(2n + 2) {
     grid-column-start: col-start 8;
     grid-column-end: main-end;
     grid-row: 1;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-gold.flip:nth-child(2n + 1) {
     grid-column-start: main-start;
     grid-column-end: col-start 6;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-gold.flip:nth-child(2n + 2) {
     grid-column-start: col-start 6;
     grid-column-end: main-end;
+
+    @include tablet {
+        grid-column-start: main-start;
+        grid-column-end: main-end;
+        grid-row: auto;
+    }
 }
 
 .span-12 {
