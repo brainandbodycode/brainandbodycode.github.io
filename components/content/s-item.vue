@@ -44,6 +44,10 @@ export default {
     grid-template-rows: [content] auto;
     align-items: stretch;
 
+    @include tablet {
+        grid-template-rows: [image] 200px [content] auto;
+    }
+
     &-img {
         grid-column-start: col-start 7;
         grid-column-end: main-end;
@@ -54,6 +58,12 @@ export default {
         object-position: 50% 50%;
         border-radius: var(--border-radius);
         max-height: 400px;
+
+        @include tablet {
+            grid-column-start: main-start;
+            grid-column-end: main-end;
+            grid-row: image;
+        }
     }
 
 
@@ -61,6 +71,12 @@ export default {
     &-img.flip {
         grid-column-start: main-start;
         grid-column-end: col-start 6;
+
+        @include tablet {
+            grid-column-start: main-start;
+            grid-column-end: main-end;
+            grid-row: image;
+        }
     }
 
     &-content {
@@ -69,6 +85,13 @@ export default {
         grid-row: content;
         display: block;
         position: relative;
+
+        @include tablet {
+            grid-column-start: main-start;
+            grid-column-end: main-end;
+            grid-row: content;
+            margin-top: 15px;
+        }
 
         a {
             background-color: var(--color4);
@@ -114,6 +137,12 @@ export default {
     &-content.flip {
         grid-column-start: col-start 6;
         grid-column-end: main-end;
+
+        @include tablet {
+            grid-column-start: main-start;
+            grid-column-end: main-end;
+            grid-row: content;
+        }
     }
 }
 </style>

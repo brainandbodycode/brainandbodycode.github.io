@@ -94,8 +94,7 @@ All events are customizable and quotes are based on request.
 ::spacer{size="--space-large"}
 ::
 
-::grid-gold
-#left
+::quotes
 # Kind words from our clients
 
 ::quote
@@ -118,15 +117,9 @@ quote: As a physical therapist I have worked with and experienced a lot of massa
 name: BROOKE L.
 ---
 ::
+::
 
 ::contact-form
-::
-
-#right
-::shape-block{src="/img/shapes/arrow-heart-left.svg" centerX="false" centerY="false"}
-::
-
-
 ::
 
 ::shape-spacer{src="/img/shapes/spacer-loop.svg"}

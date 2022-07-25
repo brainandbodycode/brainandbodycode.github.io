@@ -7,16 +7,16 @@
                 <nuxt-link class="cnav-content-logo" to="/">
                     <img src="/img/header-logo.png" alt="Brain and Body Therapy" width="775" height="228" />
                 </nuxt-link>
-                <ul>
-                    <li>
-                        <nuxt-link to="/">Home</nuxt-link>
-                    </li>
-                    <li>
+                <ul class="cnav-content-list">
+                    <li class="about-us-desktop">
                         <nuxt-link to="/about-us">About Us</nuxt-link>
                     </li>
-                    <li class="cnav-content-extra">
+                    <li class="cnav-content-list-extra">
                         <span>Learn More</span>
                         <ul>
+                            <li class="about-us-mobile">
+                                <nuxt-link to="/about-us">About Us</nuxt-link>
+                            </li>
                             <li>
                                 <nuxt-link to="/massage-types">Massage Types</nuxt-link>
                             </li>
@@ -28,11 +28,11 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="cnav-content-cta">
+                    <li class="cnav-content-list-cta">
                         <nuxt-link to="/book-now">Book Now</nuxt-link>
                     </li>
-                    <li>
-                        <a class="cnav-content-ig" href="https://www.instagram.com/brainandbodytherapy/"
+                    <li class="cnav-content-list-social">
+                        <a class="cnav-content-list-social-ig" href="https://www.instagram.com/brainandbodytherapy/"
                             rel="noreferrer" target="_blank">
                             <img src="/img/icon-ig.svg" alt="Visit Brain and Body Therapy's Instagram" width="32"
                                 height="32">
@@ -57,7 +57,7 @@
     &-spacer {
         height: 100px;
 
-        @media only screen and (max-width: 1024px) {
+        @include tablet {
             height: 70px;
         }
     }
@@ -78,6 +78,11 @@
             height: 100%;
             width: 100%;
 
+            @include tablet {
+                grid-column-start: main-start;
+                grid-column-end: col-start 6;
+            }
+
             img {
                 height: 100%;
                 width: 100%;
@@ -86,11 +91,10 @@
             }
         }
 
-        &-ig {
-            margin-right: 5px;
-        }
 
-        ul {
+
+
+        &-list {
             grid-column-start: col-start 4;
             grid-column-end: main-end;
             display: flex;
@@ -101,6 +105,11 @@
             margin: 0;
             padding: 0;
             font-weight: 700;
+
+            @include tablet {
+                grid-column-start: col-start 6;
+                grid-column-end: main-end;
+            }
 
             li {
                 display: flex;
@@ -124,31 +133,58 @@
             .router-link-exact-active {
                 text-decoration: underline;
             }
-        }
 
-        &-extra {
-            position: relative;
-            cursor: default;
+            &-social {
+                &-ig {
+                    margin-right: 5px;
+                }
+            }
 
-            ul {
-                display: none;
-                position: absolute;
-                top: 25px;
-                left: 50%;
-                z-index: 10;
-                background-color: var(--white);
-                transform: translate(-50%, 0);
-                border-radius: var(--border-radius);
-                border: 1px solid var(--color3);
-                width: 200px;
-                padding: 0 5px;
+            &-extra {
+                position: relative;
+                cursor: default;
+
+                ul {
+                    display: none;
+                    position: absolute;
+                    top: 25px;
+                    left: 50%;
+                    z-index: 10;
+                    background-color: var(--white);
+                    transform: translate(-50%, 0);
+                    border-radius: var(--border-radius);
+                    border: 1px solid var(--color3);
+                    width: 200px;
+                    padding: 0 5px;
+                }
+            }
+
+            &-extra:hover {
+                ul {
+                    display: block;
+                }
             }
         }
 
-        &-extra:hover {
-            ul {
-                display: block;
-            }
+    }
+
+    .cnav-content-list-social {
+        @include tablet {
+            display: none;
+        }
+    }
+
+    .about-us-desktop {
+        @include tablet {
+            display: none;
+        }
+    }
+
+    .about-us-mobile {
+        display: none;
+
+        @include tablet {
+            display: block;
         }
     }
 }

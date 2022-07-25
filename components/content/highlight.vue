@@ -45,7 +45,7 @@ export default {
     align-items: stretch;
     position: relative;
 
-    @media only screen and (max-width: 1024px) {
+    @include tablet {
         grid-template-rows: [content-main] auto;
     }
 
@@ -66,7 +66,7 @@ export default {
             border-radius: 0;
         }
 
-        @media only screen and (max-width: 1024px) {
+        @include tablet {
             grid-row: content-main;
         }
 
@@ -80,7 +80,7 @@ export default {
             width: 100%;
             height: 100%;
 
-            @media only screen and (max-width: 1024px) {
+            @include tablet {
                 filter: blur(60px);
             }
         }
@@ -105,7 +105,7 @@ export default {
         flex-direction: column;
         z-index: 2;
 
-        @media only screen and (max-width: 1024px) {
+        @include tablet {
             grid-row: content-main;
             grid-column-start: main-start;
             grid-column-end: main-end;
@@ -136,7 +136,7 @@ export default {
         z-index: 1;
         border-radius: var(--border-radius);
 
-        @media only screen and (max-width: 1024px) {
+        @include tablet {
             display: none;
         }
     }
