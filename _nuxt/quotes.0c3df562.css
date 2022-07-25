@@ -1,0 +1,1 @@
+.quotes-quotes{grid-column-end:col-start 8;grid-column-start:main-start;grid-row:1}@media (max-width:900px){.quotes-quotes{grid-column-end:main-end}}.quotes-arrows{grid-column-end:main-end;grid-column-start:col-start 8;grid-row:1}@media (max-width:900px){.quotes-arrows{display:none}}
