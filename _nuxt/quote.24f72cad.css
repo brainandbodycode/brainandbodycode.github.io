@@ -1,1 +1,0 @@
-.quote{display:flex;flex-direction:column}.quote-quoteafter,.quote-quotebefore{position:relative}.quote-quoteafter:after,.quote-quotebefore:before{position:absolute}.quote-quotebefore:before{content:url(../img/shapes/star.svg);left:-38px;top:-34px;transform:scale(.3333)}.quote-name{color:var(--color1);font-weight:700}
