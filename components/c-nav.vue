@@ -56,6 +56,10 @@
 
     &-spacer {
         height: 100px;
+
+        @media only screen and (max-width: 1024px) {
+            height: 70px;
+        }
     }
 
 

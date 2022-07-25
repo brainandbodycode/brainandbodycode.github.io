@@ -45,6 +45,10 @@ export default {
     align-items: stretch;
     position: relative;
 
+    @media only screen and (max-width: 1024px) {
+        grid-template-rows: [content-main] auto;
+    }
+
     &-bg {
         position: relative;
         grid-row: spacing-top / span 3;
@@ -56,6 +60,16 @@ export default {
         overflow: hidden;
         background-color: var(--white);
 
+        @media only screen and (max-width: 1200px) {
+            border-left: none;
+            border-right: none;
+            border-radius: 0;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            grid-row: content-main;
+        }
+
         &-img {
             background-size: cover;
             background-position: 50% 50%;
@@ -65,6 +79,10 @@ export default {
             left: 0;
             width: 100%;
             height: 100%;
+
+            @media only screen and (max-width: 1024px) {
+                filter: blur(60px);
+            }
         }
 
         &-color {
@@ -86,6 +104,13 @@ export default {
         display: flex;
         flex-direction: column;
         z-index: 2;
+
+        @media only screen and (max-width: 1024px) {
+            grid-row: content-main;
+            grid-column-start: main-start;
+            grid-column-end: main-end;
+            margin: 45px 0 30px 0;
+        }
     }
 
     &-content::before {
@@ -110,6 +135,10 @@ export default {
         object-position: 50% 50%;
         z-index: 1;
         border-radius: var(--border-radius);
+
+        @media only screen and (max-width: 1024px) {
+            display: none;
+        }
     }
 }
 </style>
