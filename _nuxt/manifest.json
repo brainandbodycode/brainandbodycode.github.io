@@ -58,7 +58,7 @@
       "virtual:nuxt:/home/runner/work/brainandbodycode.github.io/brainandbodycode.github.io/.nuxt/error-component.mjs"
     ],
     "css": [
-      "entry.d8f9c661.css"
+      "entry.52277b9a.css"
     ]
   },
   "virtual:nuxt:/home/runner/work/brainandbodycode.github.io/brainandbodycode.github.io/.nuxt/error-component.mjs": {
@@ -173,7 +173,7 @@
       "node_modules/nuxt/dist/app/entry.mjs"
     ],
     "css": [
-      "highlight.7f4587e9.css"
+      "highlight.7c87386c.css"
     ]
   },
   "components/content/img-float.vue": {
