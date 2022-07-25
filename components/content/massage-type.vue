@@ -52,7 +52,7 @@ export default {
 
     &-content::before {
         position: absolute;
-        content: url(/img/shapes/star.svg);
+        // content: url(/img/shapes/star.svg);
         transform: scale(0.3333);
         top: -26px;
         left: -34px;

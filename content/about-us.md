@@ -14,7 +14,7 @@ MNRI® Core in Training
 I know it sounds cliche, but **I always knew I wanted to help people**. During occupational therapy assistant (OTA) school, I knew I had made the right career choice and was enthusiastic about working with children. 
 ::
 
-::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::spacer{size="--space-large"}
 ::
 
 ::about

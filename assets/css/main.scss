@@ -54,27 +54,27 @@ h5,
 h1,
 .h1 {
     margin-top: 0;
-    font-size: calc(3.052rem * var(--header-scale));
+    font-size: calc(3.052rem * var(--header-scale) * var(--mult));
 }
 
 h2,
 .h2 {
-    font-size: calc(2.441rem * var(--header-scale));
+    font-size: calc(2.441rem * var(--header-scale) * var(--mult));
 }
 
 h3,
 .h3 {
-    font-size: calc(1.953rem * var(--header-scale));
+    font-size: calc(1.953rem * var(--header-scale) * var(--mult));
 }
 
 h4,
 .h4 {
-    font-size: calc(1.563rem * var(--header-scale));
+    font-size: calc(1.563rem * var(--header-scale) * var(--mult));
 }
 
 h5,
 .h5 {
-    font-size: calc(1.25rem * var(--header-scale));
+    font-size: calc(1.25rem * var(--header-scale) * var(--mult));
 }
 
 small,

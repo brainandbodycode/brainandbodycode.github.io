@@ -25,6 +25,11 @@ export default {
         grid-column-end: main-end;
         text-align: center;
 
+        img {
+            max-width: 75%;
+            max-height: 20px;
+        }
+
         path {
             fill: var(--color4);
         }

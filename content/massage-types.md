@@ -12,9 +12,6 @@ At **Brain and Body Therapy** we are passionate to provide the best care. If you
 ## Looking for something specific? 
 Reach out to us and we would be happy to try and accommodate your needs or refer you to a therapist who has the skillset you’re looking for. We believe that the path to health and healing should be collaborative and there are many talented people in the Spokane area who are here to help. If we cannot provide the service you’re looking for, chances are we know someone who can.
 
-#right
-::shape-block{src="/img/shapes/asterisk.svg"}
-::
 :: 
 
 

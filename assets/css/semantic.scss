@@ -4,20 +4,15 @@
 
 :root {
     --header-scale: 1.25;
+    --mult: 1;
     --scroll-position: 50%;
     --black: #1b1c1d;
     --grey: #aaa;
     --teal: #315c6d;
     --white: #fff;
-    --space-large: 100px;
-    --space-medium: 60px;
-    --space-small: 30px;
-
-    @include tablet {
-        --space-large: 30px;
-        --space-medium: 20px;
-        --space-small: 10px;
-    }
+    --space-large: calc(80px * var(--mult));
+    --space-medium: calc(70px * var(--mult));
+    --space-small: calc(30px * var(--mult));
 
     --color1: #4f84a6;
     --color2: #98d7e9;

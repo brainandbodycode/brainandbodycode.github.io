@@ -1,8 +1,16 @@
 <template>
     <div class="cnav">
-        <div class="cnav-spacer" />
+        <nav class="cnav-content spacer">
+            <div class="grid">
+                <div class="cnav-content-logo">
+                    <img class="logo-desktop" src="/img/header-logo.png" alt="Brain and Body Therapy desktop logo"
+                        width="775" height="228" />
+                    <img class="logo-mobile" src="/img/header-logo-mobile.png" alt="Brain and Body Therapy mobile logo"
+                        width="775" height="228" />
+                </div>
+            </div>
+        </nav>
         <nav class="cnav-content">
-            <div class="cnav-content-spacer" />
             <div class="grid">
                 <nuxt-link class="cnav-content-logo" to="/">
                     <img class="logo-desktop" src="/img/header-logo.png" alt="Brain and Body Therapy desktop logo"
@@ -57,14 +65,10 @@
     grid-column: content-main;
     grid-row: content-nav;
 
-    &-spacer {
-        height: 100px;
-
-        @include tablet {
-            height: 70px;
-        }
+    &-content.spacer {
+        position: relative;
+        visibility: hidden;
     }
-
 
     &-content {
         top: 0;

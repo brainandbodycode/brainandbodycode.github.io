@@ -128,10 +128,11 @@ export default {
 
     &-content::before {
         position: absolute;
-        content: url(/img/shapes/star.svg);
-        transform: scale(0.3333);
-        top: -26px;
-        left: -34px;
+        // content: url(/img/shapes/star.svg);
+        transform: scale(0.06);
+        transform-origin: 0 0;
+        top: 20px;
+        left: -30px;
     }
 
     &-content.flip {

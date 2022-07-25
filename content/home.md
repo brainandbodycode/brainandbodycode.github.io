@@ -8,7 +8,7 @@ florish: true
 At **Brain and Body Therapy** we treat the body as a whole and utilize various treatment techniques to harmonize the different systems involved in keeping our bodies alive. One of our goals is to lessen the barrier of self-care by providing in-home services, meaning we travel to your house for your session! We specialize in pregnancy and postpartum massage as well as pediatric bodywork. Our techniques include cupping, craniosacral, swedish / relaxation, and Masgutova Neurosensorimotor Reflex Integration (MNRI).
 ::
 
-::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::spacer{size="--space-large"}
 ::
 
 ::s-item
@@ -20,7 +20,7 @@ prices:
     - $75 for 60 minutes
     - $110 for 90 minutes
 ---
-[Book a massage](/#)
+[Book a massage](/book-now)
 
 We provide in-home services for the highest level of relaxation. Combining our knowledge of the brain-body system and applying traditional massage applications you can expect a wonderful blend of therapeutic work with a relaxing feel. Addressing tension headaches through craniosacral work; improving blood circulation through intentional massage strokes towards the heart; improving joint range of motion through joint mobilization and pin/stretching of the surrounding muscles; and decreasing stiffness through muscle relaxation are just a few benefits to receiving massage. 
 
@@ -40,7 +40,7 @@ flip: false
 prices:
     - $60 for 60 minutes
 ---
-[Book a pediatric massage](/#)
+[Book a pediatric massage](/book-now)
 
 Kiddos can benefit from bodywork too! Improving respiration, circulation, sensory organization, motor and language development, and emotional regulation are just a few benefits of bodywork to help your kiddo reach their full potential. While **Brain and Body Therapy** works with children diagnosed with ADHD, autism, sensory processing, and CP, there are many children who don’t qualify for services but could benefit from bodywork. 
 
@@ -67,7 +67,7 @@ title: Corporate
 src: /img/home-corporate.jpeg
 flip: true
 ---
-[Book a corporate massage](/#)
+[Book a corporate massage](/book-now)
 
 Are you ready to change up your next team meeting or work event? Whether you want to treat your employees or boost moral in your company, having an onsite massage therapist will do the trick. We provide onsite relaxation with table or chair massage depending on your needs and space. We can set up in a vacant meeting room or even in your lobby. Don’t have space? No worries, we can skip the set up and bring the massage to their desk. Adding a massage to your business practice benefits both employees and employers.
 

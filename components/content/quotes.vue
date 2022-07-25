@@ -4,7 +4,7 @@
             <slot />
         </div>
         <div class="quotes-arrows">
-            <shape-block src="/img/shapes/arrow-heart-left.svg" centerX="false" centerY="false" />
+            <!-- <shape-block src="/img/shapes/arrow-heart-left.svg" centerX="false" centerY="false" /> -->
         </div>
     </div>
 </template>

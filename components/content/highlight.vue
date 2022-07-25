@@ -56,7 +56,7 @@ export default {
         grid-column-end: full-end;
         overflow: hidden;
         border-radius: var(--border-radius);
-        border: 1px solid var(--color4);
+        // border: 1px solid var(--color4);
         overflow: hidden;
         background-color: var(--white);
 

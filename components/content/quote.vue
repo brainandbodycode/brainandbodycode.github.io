@@ -37,9 +37,10 @@ export default {
 
     &-quotebefore::before {
         content: url(/img/shapes/star.svg);
-        transform: scale(0.3333);
-        top: -34px;
-        left: -38px;
+        transform: scale(0.06);
+        transform-origin: 0 0;
+        top: -2px;
+        left: -30px;
     }
 
     &-name {

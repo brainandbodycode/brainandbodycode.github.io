@@ -31,21 +31,42 @@ function getScrollPercent() {
   return (h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight);
 }
 
+function clamp(val, min, max) {
+  return Math.min(Math.max(val, min), max);
+}
+
 export default {
   mounted() {
-    let hasUpdated = false
+    let hasUpdatedScroll = false
     function onScroll() {
-      hasUpdated = false
-      const percent = 1 - Math.min(Math.max(getScrollPercent(), 0), 1);
+      hasUpdatedScroll = false
+      const percent = 1 - clamp(getScrollPercent(), 0, 1);
       document.documentElement.style.setProperty('--scroll-position', `${percent}%`);
     }
 
+    let hasUpdatedResize = false
+    const MIN_WIDTH = 600;
+    function onResize() {
+      hasUpdatedResize = false
+      const scale = clamp(window.innerWidth / MIN_WIDTH, 0.75, 1);
+      document.documentElement.style.setProperty('--mult', scale);
+    }
+
     window.addEventListener('scroll', () => {
-      if (!hasUpdated) {
+      if (!hasUpdatedScroll) {
+        hasUpdatedScroll = true;
         requestAnimationFrame(onScroll)
       }
     });
     onScroll();
+
+    window.addEventListener('resize', () => {
+      if (!hasUpdatedResize) {
+        hasUpdatedResize = true;
+        requestAnimationFrame(onResize)
+      }
+    });
+    onResize();
   }
 }
 </script>
