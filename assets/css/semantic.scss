@@ -2,6 +2,12 @@
  * Forced light theme version
  */
 
+$gold: 0.618;
+$spaceLarge: 120px;
+$spaceMedium: 80px;
+$spaceSmall: 30px;
+$spaceExtraSmall: 10px;
+
 :root {
     --header-scale: 1.25;
     --mult: 1;
@@ -10,9 +16,10 @@
     --grey: #aaa;
     --teal: #315c6d;
     --white: #fff;
-    --space-large: calc(80px * var(--mult));
-    --space-medium: calc(70px * var(--mult));
-    --space-small: calc(30px * var(--mult));
+    --space-large: calc(#{$spaceLarge} * var(--mult));
+    --space-medium: calc(#{$spaceMedium} * var(--mult));
+    --space-small: calc(#{$spaceSmall} * var(--mult));
+    --space-extra-small: calc(#{$spaceExtraSmall} * var(--mult));
 
     --color1: #4f84a6;
     --color2: #98d7e9;
@@ -179,18 +186,6 @@ a[href^='mailto\:']:hover,
 a[href^='tel\:']:hover {
     text-decoration: none;
 }
-
-// a[href^='mailto\:']::before {
-//     content: '📧 ';
-// }
-
-// a[href^='tel\:']::before {
-//     content: '📞 ';
-// }
-
-// a[href^='sms\:']::before {
-//     content: '💬 ';
-// }
 
 mark {
     background-color: var(--highlight);

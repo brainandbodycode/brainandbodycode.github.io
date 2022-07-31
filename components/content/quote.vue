@@ -39,8 +39,8 @@ export default {
         content: url(/img/shapes/star.svg);
         transform: scale(0.06);
         transform-origin: 0 0;
-        top: -2px;
-        left: -30px;
+        top: 0px;
+        left: calc(var(--space-small) * -1);
     }
 
     &-name {

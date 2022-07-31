@@ -28,7 +28,7 @@
 .cfooter {
     width: 100%;
     background-color: var(--color1);
-    padding: 30px 0;
+    padding: var(--space-small) 0;
     grid-row: content-footer;
     grid-column: content-main;
     position: relative;
@@ -40,7 +40,7 @@
         flex-direction: column;
 
         .h3 {
-            margin-bottom: 20px;
+            margin-bottom: var(--space-small);
         }
 
         p {
@@ -49,14 +49,14 @@
 
         &-copy {
             font-size: 12px;
-            padding-top: 10px;
+            padding-top: var(--space-extra-small);
         }
 
         &-social {
-            margin-top: 20px;
+            margin-top: var(--space-small);
 
             a {
-                margin-right: 10px;
+                margin-right: var(--space-small);
             }
         }
     }

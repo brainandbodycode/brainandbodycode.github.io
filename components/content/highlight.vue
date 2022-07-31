@@ -41,7 +41,7 @@ export default {
 
 <style lang="scss">
 .content-highlight {
-    grid-template-rows: [spacing-top] 60px [content-top] auto [spacing-bottom] 60px [overlap-bottom] 60px;
+    grid-template-rows: [spacing-top] var(--space-medium) [content-top] auto [spacing-bottom] var(--space-medium) [overlap-bottom] var(--space-medium);
     align-items: stretch;
     position: relative;
 
@@ -108,7 +108,7 @@ export default {
             grid-column-start: main-start;
             grid-column-end: main-end;
             border-radius: 0;
-            margin-top: 30px;
+            margin-top: var(--space-medium);
         }
     }
 

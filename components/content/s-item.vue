@@ -38,9 +38,7 @@ export default {
 
 <style lang="scss">
 .s-item {
-    --golden-inverse: 0.618;
-    --content-height: 100px;
-    min-height: var(--content-height);
+    min-height: 100px;
     grid-template-rows: [content] auto;
     align-items: stretch;
 
@@ -90,18 +88,19 @@ export default {
             grid-column-start: main-start;
             grid-column-end: main-end;
             grid-row: content;
-            margin-top: 15px;
+            margin-top: var(--space-small);
         }
 
         a {
             background-color: var(--color4);
-            padding: 10px 10px;
+            padding: var(--space-extra-small) var(--space-extra-small);
             width: 240px;
             text-align: center;
             border-radius: var(--border-radius);
             font-weight: 700;
             box-sizing: border-box;
             display: inline-block;
+            margin-bottom: var(--space-small);
         }
 
         &-title {
@@ -124,15 +123,6 @@ export default {
                 flex-direction: column;
             }
         }
-    }
-
-    &-content::before {
-        position: absolute;
-        // content: url(/img/shapes/star.svg);
-        transform: scale(0.06);
-        transform-origin: 0 0;
-        top: 20px;
-        left: -30px;
     }
 
     &-content.flip {

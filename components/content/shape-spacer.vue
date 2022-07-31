@@ -20,14 +20,14 @@ export default {
 <style lang="scss">
 .shape-spacer {
     &-block {
-        margin: 40px 0;
+        margin: var(--space-medium) 0;
         grid-column-start: main-start;
         grid-column-end: main-end;
         text-align: center;
 
         img {
             max-width: 75%;
-            max-height: 20px;
+            max-height: var(--space-small);
         }
 
         path {

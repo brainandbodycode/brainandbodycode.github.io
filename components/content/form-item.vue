@@ -38,7 +38,7 @@ export default {
     }
 
     p {
-        margin: 10px 0 0 0;
+        margin: var(--space-medium) 0 0 0;
     }
 }
 </style>
