@@ -71,15 +71,23 @@ export default {
 }
 </script>
 
-<!-- <script setup>
+<script setup>
 useHead({
-  title: 'Brain and Body Therapy | Spokane Mobile Massage and Bodywork',
+  titleTemplate: (t => {
+    if (t.length) {
+      return t + " | Brain and Body Therapy";
+    }
+    else {
+      return "Brain and Body Therapy";
+    }
+  }),
   viewport: 'width=device-width, initial-scale=1',
   charset: 'utf-8',
   meta: [
     { name: 'description', content: 'Traveling massage therapists come to your home within the greater Spokane area. Providing relaxation massage, pregnancy massage, therapeutic massage, stretching, craniosacral therapy (CST), Masgutova Neurosensorimotor Reflex Integration (MNRI), infant massage and pediatric bodywork.' }
   ],
   link: [
+    { rel: 'icon', type:"image/png", href: '/favicon.png' },
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap' }
@@ -88,4 +96,4 @@ useHead({
     lang: 'en'
   }
 })
-</script> -->
+</script>

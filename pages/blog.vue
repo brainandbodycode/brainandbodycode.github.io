@@ -1,5 +1,9 @@
 <template>
   <div>
+
+    <Head>
+      <Title>Blog</Title>
+    </Head>
     <grid-1>
       <h1>The Blog</h1>
     </grid-1>
@@ -21,11 +25,3 @@
 }
 </style>
 
-<script setup lang="ts">
-definePageMeta({
-  documentDriven: {
-    page: true, // Keep page fetching enabled
-    surround: false // Disable surround fetching
-  }
-})
-</script>
