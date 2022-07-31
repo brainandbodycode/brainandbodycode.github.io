@@ -18,4 +18,7 @@ export default defineNuxtConfig({
   ],
   modules: ['@nuxt/content'],
   plugins: ['~/plugins/vue-gtag.client.js'],
+  image: {
+    dir: 'public'
+  }
 })
