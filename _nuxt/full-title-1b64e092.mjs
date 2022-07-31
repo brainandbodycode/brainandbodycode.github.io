@@ -1,1 +1,0 @@
-import{a as t,o as s,b as l,e as a,r as o}from"./entry-0d89f5f1.mjs";const r={},_={class:"full-title grid"},c={class:"col-12"};function n(e,d){return s(),l("div",_,[a("div",c,[o(e.$slots,"default")])])}var f=t(r,[["render",n]]);export{f as default};
