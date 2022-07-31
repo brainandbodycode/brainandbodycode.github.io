@@ -27,21 +27,21 @@
                     </li>
                     <li class="cnav-content-list-extra">
                         <span>Learn More</span>
-                        <ul>
+                        <ul :key="index">
                             <li class="services-mobile">
-                                <nuxt-link to="/">Services</nuxt-link>
+                                <nuxt-link to="/" @click="increaseIndex">Services</nuxt-link>
                             </li>
                             <li class="about-us-mobile">
-                                <nuxt-link to="/about-us">About Us</nuxt-link>
+                                <nuxt-link to="/about-us" @click="increaseIndex">About Us</nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/massage-types">Massage Types</nuxt-link>
+                                <nuxt-link to="/massage-types" @click="increaseIndex">Massage Types</nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/blogs/mnri">MNRI</nuxt-link>
+                                <nuxt-link to="/blogs/mnri" @click="increaseIndex">MNRI</nuxt-link>
                             </li>
                             <li>
-                                <nuxt-link to="/blog">Blog</nuxt-link>
+                                <nuxt-link to="/blog" @click="increaseIndex">Blog</nuxt-link>
                             </li>
                         </ul>
                     </li>
@@ -64,6 +64,26 @@
         </nav>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            index: 0
+        }
+    },
+    methods: {
+        increaseIndex() {
+            this.index++;
+        }
+    },
+    computed: {
+        key() {
+            return this.index
+        }
+    }
+}
+</script>
 
 <style lang="scss">
 .cnav {
@@ -168,7 +188,7 @@
                 ul {
                     display: none;
                     position: absolute;
-                    top: 25px;
+                    top: 26px;
                     left: 50%;
                     z-index: 10;
                     background-color: var(--white);
@@ -176,7 +196,7 @@
                     border-radius: var(--border-radius);
                     border: 1px solid var(--color3);
                     width: 200px;
-                    padding: 0 var(--space-extra-small);
+                    padding: var(--space-extra-small);
                 }
             }
 
