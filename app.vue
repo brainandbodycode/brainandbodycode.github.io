@@ -71,7 +71,7 @@ export default {
 }
 </script>
 
-<script setup>
+<!-- <script setup>
 useHead({
   title: 'Brain and Body Therapy | Spokane Mobile Massage and Bodywork',
   viewport: 'width=device-width, initial-scale=1',
@@ -88,4 +88,4 @@ useHead({
     lang: 'en'
   }
 })
-</script>
+</script> -->

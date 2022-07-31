@@ -20,3 +20,12 @@
   row-gap: 30px;
 }
 </style>
+
+<script setup lang="ts">
+definePageMeta({
+  documentDriven: {
+    page: true, // Keep page fetching enabled
+    surround: false // Disable surround fetching
+  }
+})
+</script>

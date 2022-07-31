@@ -1,15 +1,5 @@
 <template>
     <article class="article">
-        <!-- <content-doc v-slot="{ doc }"> -->
-        <!-- <h1 class="article-title">{{ doc.title }}</h1>
-            <div class="article-content">
-                <content-renderer :value="doc" />
-            </div>
-            <img class="article-img" :src="`${doc.img}`" :alt="doc.title" /> -->
-        <!-- <div class="article-content">
-                <content-renderer :value="doc" />
-            </div>
-        </content-doc> -->
         <content-doc />
     </article>
 </template>
