@@ -97,5 +97,5 @@ Trigger point therapy identifies tender points in the musculoskeletal system. Th
 ::
 <!-- end massage types -->
 
-::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::spacer{size="--space-medium"}
 ::

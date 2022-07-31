@@ -119,5 +119,5 @@ name: BROOKE L.
 ::contact-form
 ::
 
-::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::spacer{size="--space-medium"}
 ::

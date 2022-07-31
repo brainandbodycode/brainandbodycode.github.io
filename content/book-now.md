@@ -3,5 +3,5 @@
 ::
 ::
 
-::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::spacer{size="--space-medium"}
 ::

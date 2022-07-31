@@ -83,5 +83,5 @@ title: Reflex Integration for trauma recovery
 - [Flood trauma survival and recovery using MNRI reflex neurointegration therapy](https://masgutovamethod.com/_uploads/_media_uploads/_source/International-Journal-Of-Physical-Medicine-And-Rehabilitation-vol5-issue6.pdf)
 ::
 
-::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::spacer{size="--space-medium"}
 ::

@@ -22,5 +22,5 @@ You can expect firm to medium pressure throughout your massage. We are always lo
 Adults can also benefit from Musgutova Neurosensorimotor Reflex Integration (MNRI). MNRI has been known to help improve coordination, decrease stress and help with past traumatic events without talk therapy. By providing specific proprioceptive input to the sensory system, we can “reprogram” the nervous system into a more efficient way of functioning. Click here for more MNRI information. 
 ::
 
-::shape-spacer{src="/img/shapes/spacer-loop.svg"}
+::spacer{size="--space-medium"}
 ::

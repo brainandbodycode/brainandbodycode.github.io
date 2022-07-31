@@ -14,7 +14,7 @@
         </div>
       </content-list>
     </div>
-    <shape-spacer src="/img/shapes/spacer-loop.svg" />
+    <spacer size="--space-medium" />
   </div>
 
 </template>
