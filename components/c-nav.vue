@@ -19,7 +19,7 @@
                         width="775" height="228" />
                 </nuxt-link>
                 <ul class="cnav-content-list">
-                    <li>
+                    <li class="services-desktop">
                         <nuxt-link to="/">Services</nuxt-link>
                     </li>
                     <li class="about-us-desktop">
@@ -28,6 +28,9 @@
                     <li class="cnav-content-list-extra">
                         <span>Learn More</span>
                         <ul>
+                            <li class="services-mobile">
+                                <nuxt-link to="/">Services</nuxt-link>
+                            </li>
                             <li class="about-us-mobile">
                                 <nuxt-link to="/about-us">About Us</nuxt-link>
                             </li>
@@ -94,7 +97,7 @@
 
             @include mobile {
                 grid-column-start: main-start;
-                grid-column-end: col-start 3;
+                grid-column-end: col-start 4;
             }
 
             img {
@@ -131,7 +134,7 @@
             }
 
             @include mobile {
-                grid-column-start: col-start 3;
+                grid-column-start: col-start 4;
                 grid-column-end: main-end;
             }
 
@@ -141,14 +144,8 @@
                 margin: var(--space-extra-small) var(--space-extra-small);
             }
 
-            .cnav-cta a {
-                background-color: var(--color4);
-                padding: 10px 20px;
-                border-radius: var(--border-radius);
-            }
-
             a {
-                padding: 10px 0px;
+                padding: var(--space-extra-small) 0px;
                 width: 100%;
                 height: 100%;
                 display: inline-flex;
@@ -179,7 +176,7 @@
                     border-radius: var(--border-radius);
                     border: 1px solid var(--color3);
                     width: 200px;
-                    padding: 0 5px;
+                    padding: 0 var(--space-extra-small);
                 }
             }
 
@@ -195,6 +192,20 @@
     .cnav-content-list-social {
         @include tablet {
             display: none;
+        }
+    }
+
+    .services-desktop {
+        @include mobile {
+            display: none;
+        }
+    }
+
+    .services-mobile {
+        display: none;
+
+        @include mobile {
+            display: block;
         }
     }
 

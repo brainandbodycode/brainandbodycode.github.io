@@ -11,7 +11,7 @@ body,
 
 .ctabtn {
     background-color: var(--color4);
-    padding: 0 20px;
+    padding: 0 var(--space-extra-small);
     border-radius: var(--border-radius);
 }
 
