@@ -72,22 +72,29 @@ export default {
 </script>
 
 <script setup>
+const title = "Brain and Body Therapy";
+const desc = "Traveling massage therapists come to your home within the greater Spokane area. Providing relaxation massage, pregnancy massage, therapeutic massage, stretching, craniosacral therapy (CST), Masgutova Neurosensorimotor Reflex Integration (MNRI), infant massage and pediatric bodywork.";
 useHead({
   titleTemplate: (t => {
     if (t.length) {
-      return t + " | Brain and Body Therapy";
+      return t + ` | ${title}`;
     }
     else {
-      return "Brain and Body Therapy";
+      return title;
     }
   }),
   viewport: 'width=device-width, initial-scale=1',
   charset: 'utf-8',
   meta: [
-    { name: 'description', content: 'Traveling massage therapists come to your home within the greater Spokane area. Providing relaxation massage, pregnancy massage, therapeutic massage, stretching, craniosacral therapy (CST), Masgutova Neurosensorimotor Reflex Integration (MNRI), infant massage and pediatric bodywork.' }
+    { property: "og:title", content: title },
+    { property: "og:description", content: desc },
+    { name: 'description', content: desc },
+    { name: 'og:url', content: "https://brainandbodycode.github.io/" },
+    { name: 'og:image', content: "https://brainandbodycode.github.io/social-share.jpg" },
+    { name: 'og:type', content: "website" },
   ],
   link: [
-    { rel: 'icon', type:"image/png", href: '/favicon.png' },
+    { rel: 'icon', type: "image/png", href: '/favicon.png' },
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
     { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap' }
