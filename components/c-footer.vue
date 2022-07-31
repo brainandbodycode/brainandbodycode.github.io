@@ -56,7 +56,7 @@
             margin-top: var(--space-small);
 
             a {
-                margin-right: var(--space-small);
+                margin-right: var(--space-extra-small);
             }
         }
     }
