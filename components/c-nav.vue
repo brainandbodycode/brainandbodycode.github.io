@@ -34,6 +34,11 @@
                             <li class="about-us-mobile">
                                 <nuxt-link to="/about-us" @click="increaseIndex">About Us</nuxt-link>
                             </li>
+                            <!-- <li>
+                                <nuxt-link :to="{ path: '/', hash: '#contact' }" @click="increaseIndex">
+                                    <span>Contact Us</span>
+                                </nuxt-link>
+                            </li> -->
                             <li>
                                 <nuxt-link to="/massage-types" @click="increaseIndex">Massage Types</nuxt-link>
                             </li>

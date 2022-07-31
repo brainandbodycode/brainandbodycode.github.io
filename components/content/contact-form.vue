@@ -1,5 +1,5 @@
 <template>
-    <div class="grid">
+    <div class="grid" ref="contact">
         <div class="contact-form">
             <h2 v-if="!submitted" class="contact-heading">Lets start our conversation</h2>
             <div v-if="submitted">
@@ -66,7 +66,7 @@ export default {
                 this.loading = false;
             }
         }
-    }
+    },
 }
 </script>
 
