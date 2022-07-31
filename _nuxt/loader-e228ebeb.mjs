@@ -1,1 +1,0 @@
-import{a as _,o as l,b as n,f as e}from"./entry-8d0090fa.mjs";const s={},o={class:"lds-ring"},t=e("div",null,null,-1),c=e("div",null,null,-1),d=e("div",null,null,-1),a=e("div",null,null,-1),r=[t,c,d,a];function i(u,v){return l(),n("div",o,r)}var h=_(s,[["render",i]]);export{h as default};

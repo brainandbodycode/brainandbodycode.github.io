@@ -1,0 +1,1 @@
+import{a as c,o as t,b as o,z as _,Q as n}from"./entry-c8dfbb5e.mjs";const a={},s={class:"article"};function r(l,d){const e=n;return t(),o("article",s,[_(e)])}var i=c(a,[["render",r]]);export{i as default};

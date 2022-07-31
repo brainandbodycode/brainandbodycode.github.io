@@ -1,1 +1,0 @@
-import{a as r,o as n,c as a,h as _}from"./entry-8d0090fa.mjs";const c={props:{src:{type:String,required:!0},alt:{type:String,default:""}}};function o(s,l,e,u,d,p){const t=_;return n(),a(t,{class:"rounded-img",src:e.src,alt:e.alt,placeholder:""},null,8,["src","alt"])}var m=r(c,[["render",o]]);export{m as default};

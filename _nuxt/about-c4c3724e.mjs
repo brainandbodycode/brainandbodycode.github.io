@@ -1,1 +1,0 @@
-import{a as t,o,b as s,e as n,f as _,r,h as c}from"./entry-8d0090fa.mjs";const u={},l={class:"about grid"},d={class:"about-about"};function p(e,i,m,b,f,g){const a=c;return o(),s("div",l,[n(a,{class:"about-img",src:"/img/about-carla-neptune.jpeg",alt:"Carla and Neptune",placeholder:""}),_("div",d,[r(e.$slots,"default")])])}var h=t(u,[["render",p]]);export{h as default};
