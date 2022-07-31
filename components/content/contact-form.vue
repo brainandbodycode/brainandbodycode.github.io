@@ -77,7 +77,7 @@ export default {
 
 .contact-form {
     grid-column-start: main-start;
-    grid-column-end: col-start 8;
+    grid-column-end: col-start 10;
 
     @include tablet {
         grid-column-end: main-end;

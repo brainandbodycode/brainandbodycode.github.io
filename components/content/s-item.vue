@@ -47,7 +47,7 @@ export default {
     }
 
     &-img {
-        grid-column-start: col-start 7;
+        grid-column-start: col-start 8;
         grid-column-end: main-end;
         grid-row: content;
         width: 100%;
@@ -79,7 +79,7 @@ export default {
 
     &-content {
         grid-column-start: main-start;
-        grid-column-end: col-start 7;
+        grid-column-end: col-start 8;
         grid-row: content;
         display: block;
         position: relative;

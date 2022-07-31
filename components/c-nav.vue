@@ -108,6 +108,7 @@ export default {
         background-color: rgba(255, 255, 255, 0.95);
         width: 100%;
         padding: var(--space-extra-small) 0 var(--space-extra-small) 0;
+        border-bottom: 1px solid var(--color3);
 
         &-logo {
             grid-column-start: main-start;

@@ -7,6 +7,7 @@
         <div class="content-highlight-content" :class="{ florish: florish }">
             <slot />
         </div>
+        <div class="content-highlight-imgbacking" />
         <img class="content-highlight-img" :src="src" :alt="alt" />
     </div>
 </template>
@@ -123,6 +124,30 @@ export default {
         content: url(/img/shapes/word-highlight.svg);
     }
 
+    &-imgbacking {
+        position: relative;
+        grid-column-start: col-start 6;
+        grid-column-end: main-end;
+        grid-row: content-top / span 3;
+        width: 100%;
+        height: 100%;
+
+        @include tablet {
+            display: none;
+        }
+    }
+
+    &-imgbacking::before {
+        content: '';
+        position: absolute;
+        top: calc(var(--space-extra-small) * -1);
+        left: calc(var(--space-extra-small) * -1);
+        width: 100%;
+        height: 100%;
+        border: 1px solid var(--color2);
+        border-radius: 5px;
+    }
+
     &-img {
         position: relative;
         grid-column-start: col-start 6;
@@ -134,6 +159,7 @@ export default {
         object-position: 50% 15%;
         z-index: 1;
         border-radius: var(--border-radius);
+        background-color: var(--white);
 
         @include tablet {
             grid-row: spacing-top / span 1;

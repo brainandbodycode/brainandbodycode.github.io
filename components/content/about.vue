@@ -18,6 +18,7 @@ export default {
     &-img {
         grid-column-start: main-start;
         grid-column-end: col-start 6;
+        border-radius: var(--border-radius);
 
         @include tablet {
             height: 400px;
