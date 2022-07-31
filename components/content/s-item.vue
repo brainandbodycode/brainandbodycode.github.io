@@ -7,6 +7,7 @@
                 <ul v-if="prices.length">
                     <li v-for="(price, index) in prices" :key="index"><strong>{{ price }}</strong></li>
                 </ul>
+                <nuxt-link to="/book-now">{{ cta }}</nuxt-link>
             </div>
             <slot />
         </div>
@@ -21,6 +22,10 @@ export default {
             required: true
         },
         src: {
+            type: String,
+            required: true
+        },
+        cta: {
             type: String,
             required: true
         },
@@ -101,6 +106,7 @@ export default {
             box-sizing: border-box;
             display: inline-block;
             margin-bottom: var(--space-small);
+            margin-top: var(--space-extra-small);
         }
 
         &-title {

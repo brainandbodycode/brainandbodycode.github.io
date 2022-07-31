@@ -16,12 +16,11 @@ At **Brain and Body Therapy** we treat the body as a whole and utilize various t
 title: Adults
 src: /img/home-adults.jpeg
 flip: true
+cta: Book a massage
 prices:
     - $75 for 60 minutes
     - $110 for 90 minutes
 ---
-[Book a massage](/book-now)
-
 We provide in-home services for the highest level of relaxation. Combining our knowledge of the brain-body system and applying traditional massage applications you can expect a wonderful blend of therapeutic work with a relaxing feel. Addressing tension headaches through craniosacral work; improving blood circulation through intentional massage strokes towards the heart; improving joint range of motion through joint mobilization and pin/stretching of the surrounding muscles; and decreasing stiffness through muscle relaxation are just a few benefits to receiving massage. 
 
 You can expect firm to medium pressure throughout your massage. We are always looking at the body’s subtle clues if we come across a tender area or need to adjust the pressure. You can expect to hear, “Do you need more, less or the same amount of pressure.” during your massage so we can get the best feedback on what you need. The massage is completed at a slower place to allow the nervous system to relax to allow our work to last longer. 
@@ -37,11 +36,10 @@ Adults can also benefit from Musgutova Neurosensorimotor Reflex Integration (MNR
 title: Pediatrics
 src: /img/home-pediatrics.jpeg
 flip: false
+cta: Book a pediatric massage
 prices:
     - $60 for 60 minutes
 ---
-[Book a pediatric massage](/book-now)
-
 Kiddos can benefit from bodywork too! Improving respiration, circulation, sensory organization, motor and language development, and emotional regulation are just a few benefits of bodywork to help your kiddo reach their full potential. While **Brain and Body Therapy** works with children diagnosed with ADHD, autism, sensory processing, and CP, there are many children who don’t qualify for services but could benefit from bodywork. 
 
 ##### Could your child benefit from Brain and Body Therapy services? If yes, to any of the following questions, don’t hesitate to schedule an appointment. 
@@ -66,9 +64,8 @@ Primarily utilizing techniques in Masgutova Neurosensorimotor Reflex Integration
 title: Corporate
 src: /img/home-corporate.jpeg
 flip: true
+cta: Book a corporate massage
 ---
-[Book a corporate massage](/book-now)
-
 Are you ready to change up your next team meeting or work event? Whether you want to treat your employees or boost moral in your company, having an onsite massage therapist will do the trick. We provide onsite relaxation with table or chair massage depending on your needs and space. We can set up in a vacant meeting room or even in your lobby. Don’t have space? No worries, we can skip the set up and bring the massage to their desk. Adding a massage to your business practice benefits both employees and employers.
 
 ##### Benefits for employers: 
