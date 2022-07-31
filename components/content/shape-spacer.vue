@@ -1,7 +1,7 @@
 <template>
     <div class="shape-spacer grid">
         <div class="shape-spacer-block">
-            <img :src="src" alt="Spacer">
+            <nuxt-img :src="src" alt="Spacer" placeholder />
         </div>
     </div>
 </template>

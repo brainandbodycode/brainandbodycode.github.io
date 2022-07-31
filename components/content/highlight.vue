@@ -7,7 +7,7 @@
         <div class="content-highlight-content" :class="{ florish: florish }">
             <slot />
         </div>
-        <img class="content-highlight-img" :src="src" :alt="alt">
+        <nuxt-picture class="content-highlight-img" :src="src" :alt="alt" placeholder sizes="sm:100vw md:50vw lg:600px" />
     </div>
 </template>
 

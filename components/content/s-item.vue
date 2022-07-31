@@ -1,6 +1,6 @@
 <template>
     <section class="s-item grid">
-        <img class="s-item-img" :class="{ flip: flip }" :src="src" alt="">
+        <nuxt-img class="s-item-img" :class="{ flip: flip }" :src="src" :alt="title" placeholder />
         <div class="s-item-content" :class="{ flip: flip }">
             <div class="s-item-content-title">
                 <h1>{{ title }}</h1>

@@ -1,6 +1,6 @@
 <template>
     <div class="shape-smile" :style="style">
-        <img :src="src" alt="Spacer">
+        <nuxt-img :src="src" alt="Spacer" placeholder />
     </div>
 </template>
 
