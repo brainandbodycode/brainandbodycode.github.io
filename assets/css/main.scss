@@ -9,6 +9,12 @@ body,
     align-content: space-between;
 }
 
+.ctabtn {
+    background-color: var(--color4);
+    padding: 0 20px;
+    border-radius: var(--border-radius);
+}
+
 .grid {
     display: grid;
     column-gap: var(--space-small);

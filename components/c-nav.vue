@@ -42,7 +42,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="cnav-content-list-cta">
+                    <li class="cnav-content-list-cta ctabtn">
                         <nuxt-link to="/book-now">Book Now</nuxt-link>
                     </li>
                     <li class="cnav-content-list-social">
@@ -138,12 +138,7 @@
             li {
                 display: flex;
                 flex-direction: row;
-                margin: 0 10px;
-
-                @include mobile {
-                    margin: 0 5px;
-
-                }
+                margin: var(--space-extra-small) var(--space-extra-small);
             }
 
             .cnav-cta a {
