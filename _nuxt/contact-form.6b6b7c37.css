@@ -1,1 +1,0 @@
-.contact-heading{position:relative}.contact-form{grid-column-end:col-start 8;grid-column-start:main-start}@media (max-width:900px){.contact-form{grid-column-end:main-end}}.contact-form-form{border-radius:var(--border-radius);display:flex;flex-direction:column}.contact-form-form input,.contact-form-form textarea{box-sizing:border-box;width:100%}
