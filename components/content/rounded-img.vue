@@ -1,5 +1,5 @@
 <template>
-    <nuxt-img class="rounded-img" :src="src" :alt="alt" placeholder />
+    <img class="rounded-img" :src="src" :alt="alt" placeholder />
 </template>
 
 <script>

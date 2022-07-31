@@ -1,6 +1,6 @@
 <template>
     <nuxt-link class="blogpreview" :to="path">
-        <nuxt-img :src="`${img}`" :alt="title" placeholder />
+        <img :src="`${img}`" :alt="title" placeholder />
         <p class="h4">{{ title }}</p>
     </nuxt-link>
 </template>

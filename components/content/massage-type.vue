@@ -5,7 +5,7 @@
                 <h1>{{ title }}</h1>
                 <slot />
             </div>
-            <nuxt-img class="massage-type-img" :class="{ flip: flip }" :src="`${img}`" :alt="title" placeholder />
+            <img class="massage-type-img" :class="{ flip: flip }" :src="`${img}`" :alt="title" placeholder />
         </div>
     </div>
 </template>
