@@ -61,6 +61,7 @@ export default {
         object-position: 50% 50%;
         border-radius: var(--border-radius);
         max-height: 400px;
+        z-index: 3;
 
         @include tablet {
             grid-column-start: main-start;
@@ -68,8 +69,6 @@ export default {
             grid-row: image;
         }
     }
-
-
 
     &-img.flip {
         grid-column-start: main-start;
