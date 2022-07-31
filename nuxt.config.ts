@@ -5,12 +5,13 @@ export default defineNuxtConfig({
   css: ['~/assets/css/semantic.scss', '~/assets/css/main.scss'],
   vite: {
     css: {
-        preprocessorOptions: {
-            scss: {
-                additionalData: '@import "@/assets/css/_variables.scss";',
-            },
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "@/assets/css/_variables.scss";',
         },
+      },
     },
-},
+  },
   modules: ['@nuxt/content'],
+  plugins: ['~/plugins/vue-gtag.client.js'],
 })
