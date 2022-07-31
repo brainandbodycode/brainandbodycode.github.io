@@ -46,7 +46,7 @@
 }
 
 
-#widget-container > ng-view > div > div.header {
+#widget-container>ng-view>div>div.header {
     font-family: "Markazi Text", serif;
     font-size: 39.06px;
     font-weight: 400;
@@ -57,7 +57,7 @@
     align-items: center;
 }
 
-#widget-container > ng-view > div > div.header i {
+#widget-container>ng-view>div>div.header i {
     font-size: 16px;
 }
 
@@ -99,6 +99,8 @@ body {
 
 .category-table .category .image {
     display: block;
+    padding: 0;
+    width: auto;
 }
 
 .category-table .category .image img {
@@ -116,6 +118,13 @@ body {
 .category-table .category {
     display: flex;
     flex-direction: row;
+}
+
+@media(min-width: 768px) {
+
+    .category-table .category {
+        flex-direction: column;
+    }
 }
 
 #manage-appointments {
@@ -214,7 +223,7 @@ body {
     width: 100%;
 }
 
-#widget-container > ng-view > div > div.row.current-appointment > div > div > div:nth-child(1) > div.col-xs-7.ng-binding {
+#widget-container>ng-view>div>div.row.current-appointment>div>div>div:nth-child(1)>div.col-xs-7.ng-binding {
     font-size: 16px;
     font-weight: 700;
     margin: 0 0 2px 0;
@@ -245,7 +254,8 @@ body {
     border-color: var(--color3);
 }
 
-.uib-weeks .btn.btn-default.btn-sm.btn-info.active, .uib-weeks .btn-info {
+.uib-weeks .btn.btn-default.btn-sm.btn-info.active,
+.uib-weeks .btn-info {
     background-color: var(--color4);
     border-color: var(--color4);
     box-shadow: none;
@@ -321,6 +331,8 @@ body {
         [main-start] repeat(12, [col-start] 1fr) [main-end];
 }
 
+
+
 .row::before,
 .row::after {
     content: none;
@@ -331,8 +343,18 @@ body {
     margin-left: 0;
     display: grid;
     column-gap: 40px;
+    row-gap: 30px;
     grid-template-columns:
         [main-start] repeat(12, [col-start] 1fr) [main-end];
+}
+
+@media(min-width: 768px) {
+
+    .row,
+    .row-no-gutters {
+        column-gap: 20px;
+        row-gap: 15px;
+    }
 }
 
 .row-no-gutters::before,
@@ -833,7 +855,8 @@ body {
 }
 
 /* Input */
-.form-control, .has-error .form-control {
+.form-control,
+.has-error .form-control {
     height: auto;
     line-height: 1.618;
     box-shadow: none;
