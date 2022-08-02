@@ -18,8 +18,9 @@ src: /img/home-adults.jpeg
 flip: true
 cta: Book a massage
 prices:
-    - $75 for 60 minutes
-    - $110 for 90 minutes
+    - $90 for 60 minutes
+    - $110 for 75 minutes
+    - $130 for 90 minutes
 ---
 We provide in-home services for the highest level of relaxation. Combining our knowledge of the brain-body system and applying traditional massage applications you can expect a wonderful blend of therapeutic work with a relaxing feel. Addressing tension headaches through craniosacral work; improving blood circulation through intentional massage strokes towards the heart; improving joint range of motion through joint mobilization and pin/stretching of the surrounding muscles; and decreasing stiffness through muscle relaxation are just a few benefits to receiving massage. 
 
