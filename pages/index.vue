@@ -6,7 +6,7 @@
     </Head>
     <content-doc path="/home">
       <template #not-found>
-        <h1>Loading</h1>
+        <div></div>
       </template>
     </content-doc>
   </div>

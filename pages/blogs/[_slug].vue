@@ -2,7 +2,7 @@
     <article class="article">
         <content-doc>
             <template #not-found>
-                <h1>Loading</h1>
+                <div></div>
             </template>
         </content-doc>
     </article>
