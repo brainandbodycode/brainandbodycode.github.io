@@ -28,5 +28,5 @@ export default defineNuxtConfig({
     },
     staticFilename: 'publicPath/imagejs/[name]-[hash][ext]',
     dir: 'public'
-  }
+  },
 })

@@ -36,6 +36,13 @@ function clamp(val, min, max) {
 }
 
 export default {
+  middleware({ store, redirect, route }) {
+    // If the user is not authenticated
+    console.log(route);
+    if (!store.state.authenticated) {
+      return redirect('/login')
+    }
+  },
   mounted() {
     let hasUpdatedScroll = false
     function onScroll() {
