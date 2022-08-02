@@ -1,0 +1,1 @@
+import{a as t,o as r,b as a}from"./entry-31652222.mjs";const n={props:{src:{type:String,required:!0},alt:{type:String,default:""}}},s=["src","alt"];function c(o,_,e,l,d,u){return r(),a("img",{class:"rounded-img",src:e.src,alt:e.alt,placeholder:""},null,8,s)}var p=t(n,[["render",c]]);export{p as default};

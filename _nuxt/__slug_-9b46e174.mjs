@@ -1,1 +1,0 @@
-import{a as t,o,b as n,x as c,w as _,N as a,e as s}from"./entry-21e65fc9.mjs";const r={},l={class:"article"},d=s("h1",null,"Loading",-1);function i(u,f){const e=a;return o(),n("article",l,[c(e,null,{"not-found":_(()=>[d]),_:1})])}var p=t(r,[["render",i]]);export{p as default};
