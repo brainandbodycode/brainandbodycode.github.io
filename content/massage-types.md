@@ -1,6 +1,6 @@
 ::highlight
 ---
-src: /img/massage-types-header.jpeg
+src: /img/massage-types-header.jpg
 ---
 # Learn about the types of massage and bodywork we offer.
 

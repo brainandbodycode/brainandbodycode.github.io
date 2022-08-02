@@ -1,6 +1,6 @@
 ::highlight
 ---
-src: /img/index-hero-img.jpeg
+src: /img/index-hero-img.jpg
 florish: true
 ---
 # <span class="bright">Welcome!</span><br />Why Brain and Body Therapy?

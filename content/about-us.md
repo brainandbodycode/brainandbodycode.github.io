@@ -2,7 +2,7 @@
 ::highlight
 ---
 src: /img/carla-pose.jpeg
-bgsrc: /img/index-hero-img.jpeg
+bgsrc: /img/index-hero-img.jpg
 florish: true
 ---
 # <span class="bright">Hello!</span> My name is Carla Eagleburger.

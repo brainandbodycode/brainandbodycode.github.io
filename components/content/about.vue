@@ -1,6 +1,6 @@
 <template>
     <div class="about grid">
-        <img class="about-img" src="/img/about-carla-neptune.jpeg" alt="Carla and Neptune" placeholder />
+        <img class="about-img" src="/img/about-carla-neptune.jpg" alt="Carla and Neptune" placeholder />
         <div class="about-about">
             <slot />
         </div>
