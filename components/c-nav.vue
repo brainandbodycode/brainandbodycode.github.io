@@ -5,8 +5,8 @@
                 <div class="cnav-content-logo">
                     <img class="logo-desktop" src="/img/header-logo.png" alt="Brain and Body Therapy desktop logo"
                         width="775" height="228" />
-                    <img class="logo-mobile" src="/img/header-logo-mobile.png" alt="Brain and Body Therapy mobile logo"
-                        width="775" height="228" />
+                    <img class="logo-mobile" src="/img/header-logo-mobile.jpg" alt="Brain and Body Therapy mobile logo"
+                        width="200" height="200" />
                 </div>
             </div>
         </nav>
@@ -15,7 +15,7 @@
                 <nuxt-link class="cnav-content-logo" to="/">
                     <img class="logo-desktop" src="/img/header-logo.png" alt="Brain and Body Therapy desktop logo"
                         width="775" height="228" />
-                    <img class="logo-mobile" src="/img/header-logo-mobile.png" alt="Brain and Body Therapy mobile logo"
+                    <img class="logo-mobile" src="/img/header-logo-mobile.jpg" alt="Brain and Body Therapy mobile logo"
                         width="775" height="228" />
                 </nuxt-link>
                 <ul class="cnav-content-list">

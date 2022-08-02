@@ -62,7 +62,7 @@ Primarily utilizing techniques in Masgutova Neurosensorimotor Reflex Integration
 ::s-item
 ---
 title: Corporate
-src: /img/home-corporate.jpeg
+src: /img/home-corporate.jpg
 flip: true
 cta: Book a corporate massage
 ---

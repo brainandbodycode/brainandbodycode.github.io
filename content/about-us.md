@@ -56,5 +56,8 @@ When I’m not working I enjoy all the benefits the great Pacific Northwest has 
 - NBCOT
 ::
 
+::contact-form
+::
+
 ::spacer{size="--space-medium"}
 ::
