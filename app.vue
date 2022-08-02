@@ -97,7 +97,7 @@ useHead({
     { rel: 'icon', type: "image/png", href: '/favicon.png' },
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true },
-    { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap' }
+    { rel: "preload", as: 'style', href: 'https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap', onload: "this.onload=null;this.rel='stylesheet'" }
   ],
   htmlAttrs: {
     lang: 'en'
