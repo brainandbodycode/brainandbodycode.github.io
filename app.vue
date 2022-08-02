@@ -89,8 +89,8 @@ useHead({
     { property: "og:title", content: title },
     { property: "og:description", content: desc },
     { name: 'description', content: desc },
-    { name: 'og:url', content: "https://brainandbodycode.github.io/" },
-    { name: 'og:image', content: "https://brainandbodycode.github.io/social-share.jpg" },
+    { name: 'og:url', content: "https://www.brainandbodytherapy.com/" },
+    { name: 'og:image', content: "https://www.brainandbodytherapy.com/social-share.jpg" },
     { name: 'og:type', content: "website" },
   ],
   link: [
