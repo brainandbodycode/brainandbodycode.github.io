@@ -1,1 +1,0 @@
-import{a,O as t,o as s,b as l,x as e,w as o,s as r,N as d}from"./entry-1759b318.mjs";const m={},p=r("Home");function i(u,f){const n=t("Title"),c=t("Head"),_=d;return s(),l("div",null,[e(c,null,{default:o(()=>[e(n,null,{default:o(()=>[p]),_:1})]),_:1}),e(_,{path:"/home"})])}var h=a(m,[["render",i]]);export{h as default};
