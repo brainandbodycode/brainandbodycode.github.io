@@ -5,6 +5,10 @@ body,
     min-height: 100vh;
 }
 
+html, body {
+    font-size: 16px;
+}
+
 #app {
     align-content: space-between;
 }
