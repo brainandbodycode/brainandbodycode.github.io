@@ -1,6 +1,10 @@
 <template>
     <article class="article">
-        <content-doc />
+        <content-doc>
+            <template #not-found>
+                <h1>Loading</h1>
+            </template>
+        </content-doc>
     </article>
 </template>
 

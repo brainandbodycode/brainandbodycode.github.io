@@ -1,6 +1,10 @@
 <template>
     <div>
-        <content-doc />
+        <content-doc>
+            <template #not-found>
+                <h1>Loading</h1>
+            </template>
+        </content-doc>
     </div>
 </template>
 
