@@ -1,0 +1,1 @@
+import{a as n,o,b as t,x as _,w as c,N as a,e as s}from"./entry-21e65fc9.mjs";const r={},l=s("h1",null,"Loading",-1);function d(u,f){const e=a;return o(),t("div",null,[_(e,null,{"not-found":c(()=>[l]),_:1})])}var m=n(r,[["render",d]]);export{m as default};
