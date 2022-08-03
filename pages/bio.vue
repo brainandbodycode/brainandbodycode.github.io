@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-navigateTo('/about-us')
+navigateTo('/about-us', { redirectCode: 301 })
 </script>

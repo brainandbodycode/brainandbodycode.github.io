@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-navigateTo('/blogs/mnri')
+navigateTo('/blogs/mnri', { redirectCode: 301 })
 </script>
