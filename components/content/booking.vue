@@ -1,6 +1,4 @@
 <template>
-    <!-- <iframe v-frame="'https://app.squarespacescheduling.com/schedule.php?owner=26788133&appointmentType=35501038'"
-        title="Schedule Appointment" width="100%" height="100%" frameBorder="0"></iframe> -->
     <div v-intake>
         <div id="intakeq"></div>
     </div>
@@ -8,8 +6,6 @@
 
 
 <script>
-import iframeResize from 'iframe-resizer/js/iframeResizer';
-
 export default {
     directives: {
         intake: {
