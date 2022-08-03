@@ -51,7 +51,7 @@
                         </ul>
                     </li>
                     <li class="cnav-content-list-cta ctabtn">
-                        <nuxt-link to="/book-now">Book Now</nuxt-link>
+                        <nuxt-link to="/services-and-rates">Book Now</nuxt-link>
                     </li>
                     <li class="cnav-content-list-social">
                         <a class="cnav-content-list-social-ig" href="https://www.instagram.com/brainandbodytherapy/"

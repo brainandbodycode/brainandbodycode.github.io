@@ -7,7 +7,7 @@
                 <ul v-if="prices.length">
                     <li v-for="(price, index) in prices" :key="index"><strong>{{ price }}</strong></li>
                 </ul>
-                <nuxt-link to="/book-now">{{ cta }}</nuxt-link>
+                <nuxt-link to="/services-and-rates">{{ cta }}</nuxt-link>
             </div>
             <slot />
         </div>
