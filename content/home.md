@@ -3,9 +3,9 @@
 src: /img/index-hero-img.jpg
 florish: true
 ---
-# <span class="bright">Welcome!</span><br />Welcome to Brain and Body Therapy
+# <span class="bright">Welcome to healing!</span><br /> 
 
-At **Brain and Body Therapy** we treat the body as a whole and utilize various treatment techniques to harmonize the different systems involved in keeping our bodies alive. One of our goals is to lessen the barrier of self-care by providing in-home services, meaning we travel to your house for your session! We specialize in pregnancy and postpartum massage as well as pediatric bodywork. Our techniques include cupping, craniosacral, swedish / relaxation, and Masgutova Neurosensorimotor Reflex Integration (MNRI).
+At **Brain and Body Therapy** we treat the body as a whole and utilize various treatment techniques for a holistic approach to the body. One of our goals is to lessen the barrier of self-care by providing in-home services, meaning we travel to your house for your session! We specialize in pregnancy and postpartum massage as well as pediatric bodywork. Our techniques include cupping, craniosacral, swedish / relaxation, and Masgutova Neurosensorimotor Reflex Integration (MNRI).
 ::
 
 ::spacer{size="--space-large"}
@@ -99,6 +99,13 @@ All events are customizable and quotes are based on request.
 ---
 quote: I couldn’t recommend Carla more! Best massage I have ever received and in the convenience of my own home! Carla is extremely professional but at the same time makes you feel very comfortable!
 name: TAYLOR M.
+---
+::
+
+::quote
+---
+quote: Carla was amazing! So knowledgeable about massage therapy. I’ve struggled with neck and shoulder tension and this was hands down the best massage experience I’ve had and I feel like a new woman!
+name: Gabi S.
 ---
 ::
 

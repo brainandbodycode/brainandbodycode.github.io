@@ -31,7 +31,7 @@ export default {
 
     img {
         width: 100%;
-        height: 150px;
+        height: 300px;
         object-fit: cover;
         object-position: 50% 50%;
         border-radius: var(--border-radius);
