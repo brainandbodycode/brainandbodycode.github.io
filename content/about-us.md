@@ -33,7 +33,8 @@ When I’m not working I enjoy all the benefits the great Pacific Northwest has 
 
 ### Professional Trainings
 
-- Pre-and Perinatal Massage Therapy 
+- Pre-and Perinatal Massage Therapy Specialization
+- Specific Deep Tissue Techniques for the Posterior, Lateral, and Anterior Neck
 - CranioSacral Therapy 1 (CS1); Assessment of Central Nervous System and Fascia for Full Body Treatment Protocol
 - Touch For Health – Levels 1 and 2
 
