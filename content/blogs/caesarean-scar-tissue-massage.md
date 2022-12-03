@@ -1,5 +1,5 @@
 ---
-title: Caesarean Scar Tissue Massage
+title: Cesarean Scar Tissue Massage
 img: /img/blog/copy-c-scar.png
 ---
 
@@ -8,7 +8,7 @@ img: /img/blog/copy-c-scar.png
 ---
 src: /img/blog/copy-c-scar.png
 ---
-# Caesarean Scar Tissue Massage
+# Cesarean Scar Tissue Massage
 
 Did you know you can and should work on your scars?
 
