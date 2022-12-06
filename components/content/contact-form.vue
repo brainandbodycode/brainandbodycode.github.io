@@ -37,6 +37,7 @@
                     <span v-if="loading">Sending Message</span>
                     <span v-else>Send Message</span>
                 </button>
+                <input type="text" name="travelmsg" placeholder="Travel Message" class="contact-form-form-travel" />
             </form>
         </div>
     </div>
@@ -54,7 +55,7 @@ export default {
         async onSubmit() {
             this.loading = true;
             const formElem = this.$refs.form;
-            let response = await fetch('https://script.google.com/macros/s/AKfycbwayz36om-CC08N2L3gMvb8aFx2q7j75VCIT4MgRbOnkPSITC8UCNKiC0EotFF6WNJa/exec', {
+            let response = await fetch('https://script.google.com/macros/s/AKfycbwJKyKiYuD5h7N3acq6wHOT3b_ZrGDoKz-UjmK-jcbC-izepEde9k9SmWFoK3vrr5WY/exec', {
                 method: 'POST',
                 body: new FormData(formElem)
             });
@@ -92,10 +93,18 @@ export default {
         textarea {
             width: 100%;
             box-sizing: border-box;
+            resize: none;
         }
 
         button {
             background-color: var(--color4);
+        }
+
+        &-travel {
+            transform: scale(0);
+            margin: 0;
+            padding: 0;
+            height: 0;
         }
     }
 }
