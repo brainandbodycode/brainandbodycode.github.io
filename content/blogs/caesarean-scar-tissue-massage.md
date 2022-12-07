@@ -1,12 +1,12 @@
 ---
 title: Cesarean Scar Tissue Massage
-img: /img/blog/copy-c-scar.png
+img: /img/blog/scar-management.png
 ---
 
 [comment]: <> (START HIGHLIGHT)
 ::highlight
 ---
-src: /img/blog/copy-c-scar.png
+src: /img/blog/scar-management.png
 ---
 # Cesarean Scar Tissue Massage
 
@@ -62,10 +62,10 @@ Remember, go slow! Your body is still recovering so don’t try and force big mo
 ::grid-2
 
 #left
-![Scar tissue massage](/img/blog/tech-scar-1.png)
+![Scar tissue massage](/img/blog/c-section-scar-massage.png)
 
 #right
-![Scar tissue massage](/img/blog/tech-scar-2.png)
+![Scar tissue massage](/img/blog/c-section-scar-massage2.png)
 
 ::
 [comment]: <> (END GRID_IMG SECTION)
