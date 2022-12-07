@@ -47,11 +47,11 @@ Generally cesarean scars can be massaged ~6 weeks postpartum, however everybody 
 
 Begin by allowing yourself to be in a healing mindset. Start with laying your hand or something warm over the area and try belly or diaphragmic breathing.
 
-Start at one end of the scar with two finger pads. With light pressure and gently move in a circular motion, creating circles as you move from one end of the scar to the other.
+Start at one end of the scar with two finger pads. Start massaging with light pressure and gently move in a circular motion, creating circles as you move from one end of the scar to the other.
 
 Continuing to use light pressure and moving slowly, start at the top of the scar and slowly press down until you see movement in the scar. Think of trying to create a “U” shape. Continue moving along the length of the scar. Then repeat this movement under the scar pressing upwards. This movement helps stretch the skin around the scar.
 
-Placing your fingers on top of the scar, move your fingers side to side in the same direction of the scar. Moving slowly back and forth take 30 seconds at each spot as you move along the scar.
+Placing your fingers on top of the scar, move your fingers and massage side to side in the same direction of the scar. Moving slowly back and forth take 30 seconds at each spot as you move along the scar.
 
 Remember, go slow! Your body is still recovering so don’t try and force big movement.
 
