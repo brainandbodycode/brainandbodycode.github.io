@@ -5,7 +5,10 @@ florish: true
 ---
 # <span class="bright">Welcome to healing!</span><br /> 
 
-At **Brain and Body Therapy** we treat the body as a whole and utilize various treatment techniques for a holistic approach to the body. One of our goals is to lessen the barrier of self-care by providing in-home services, meaning we travel to your house for your session! We specialize in pregnancy and postpartum massage as well as pediatric bodywork. Our techniques include cupping, craniosacral, swedish / relaxation, and Masgutova Neurosensorimotor Reflex Integration (MNRI).
+At **Brain and Body Therapy** we specialize in pregnancy and postpartum massage as well as pediatric bodywork. Our techniques include cupping, craniosacral, swedish / relaxation, and Masgutova Neurosensorimotor Reflex Integration (MNRI).
+
+We treat the body as a whole and utilize various treatment techniques for a holistic approach to the body. One of our goals is to lessen the barrier of self-care by providing in-home services, meaning we can travel to your home for your session! 
+
 ::
 
 ::spacer{size="--space-large"}
