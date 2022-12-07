@@ -65,7 +65,7 @@ Remember, go slow! Your body is still recovering so don’t try and force big mo
 ![Scar tissue massage](/img/blog/c-section-scar-massage.png)
 
 #right
-![Scar tissue massage](/img/blog/c-section-scar-massage2.png)
+![Scar tissue massage](/img/blog/c-section-scar-massage-2.png)
 
 ::
 [comment]: <> (END GRID_IMG SECTION)
