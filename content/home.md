@@ -57,7 +57,7 @@ Kiddos can benefit from bodywork too! Improving respiration, circulation, sensor
 - Are they incontinent? _(bowel and bladder control)_
 - Do they have difficulty with transitions or primarily walk on their toes? _(sensory processing and grounding)_
 
-Primarily utilizing techniques in Masgutova Neurosensorimotor Reflex Integration (MNRI) we work with their body’s innate intelligence to improve their neuroplasticity and inherently improve their overall well-being. You will be provided with a home program to complete after the initial visit for continued improvement. The home program is taught to facilitate faster improvements. These techniques are easily reproducible and effective. Click here for more MNRI information.
+Primarily utilizing techniques in Masgutova Neurosensorimotor Reflex Integration (MNRI) we work with their body’s innate intelligence to improve their neuroplasticity and inherently improve their overall well-being. You will be provided with a home program to complete after the initial visit for continued improvement. The home program is taught to facilitate faster improvements. These techniques are easily reproducible and effective. Find more MNRI infromation in our blogs.
 ::
 
 ::spacer{size="--space-medium"}
