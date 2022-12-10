@@ -1,1 +1,0 @@
-import{a,o as r,b as c,e}from"./entry-cb1a2801.mjs";const t={props:{src:{type:String,required:!0}}},o={class:"shape-spacer grid"},_={class:"shape-spacer-block"},p=["src"];function n(d,i,s,l,h,u){return r(),c("div",o,[e("div",_,[e("img",{src:s.src,alt:"Spacer",placeholder:""},null,8,p)])])}var v=a(t,[["render",n]]);export{v as default};
