@@ -79,8 +79,8 @@ export default {
 </script>
 
 <script setup>
-const title = "Brain and Body Therapy";
-const desc = "Traveling massage therapists come to your home within the greater Spokane area. Providing relaxation massage, pregnancy massage, therapeutic massage, stretching, craniosacral therapy (CST), Masgutova Neurosensorimotor Reflex Integration (MNRI), infant massage and pediatric bodywork.";
+const title = "Brain and Body Therapy | Spokane Massage";
+const desc = "Spokane massage therapists come to your home within the greater Spokane area. Providing relaxation massage, pregnancy massage, therapeutic massage, stretching, craniosacral therapy (CST), Masgutova Neurosensorimotor Reflex Integration (MNRI), infant massage and pediatric bodywork.";
 useHead({
   titleTemplate: (t => {
     if (t.length) {
