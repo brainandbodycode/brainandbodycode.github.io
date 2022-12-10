@@ -99,6 +99,7 @@ useHead({
     { name: 'og:url', content: "https://www.brainandbodytherapy.com/" },
     { name: 'og:image', content: "https://www.brainandbodytherapy.com/social-share.jpg" },
     { name: 'og:type', content: "website" },
+    { name: 'p:domain_verify', content: "8996e368cc70e76d053294554eb9fc15" },
   ],
   link: [
     { rel: 'icon', type: "image/png", href: '/favicon.png' },
