@@ -19,6 +19,10 @@
                     <span>Email</span>
                     <input type="email" name="email" placeholder="Email" required>
                 </label>
+                <label for="phone">
+                    <span>Phone Number</span>
+                    <input type="phone" name="phone" placeholder="phone" required>
+                </label>
                 <label for="subject">
                     <span>Subject</span>
                     <input type="text" name="subject" placeholder="Subject" required>
