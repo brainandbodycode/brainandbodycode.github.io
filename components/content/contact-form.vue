@@ -21,7 +21,7 @@
                 </label>
                 <label for="phone">
                     <span>Phone Number</span>
-                    <input type="phone" name="phone" placeholder="phone" required>
+                    <input type="tel" name="phone" placeholder="Phone" required>
                 </label>
                 <label for="subject">
                     <span>Subject</span>
