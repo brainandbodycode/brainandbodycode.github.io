@@ -1,1 +1,0 @@
-import{a as s,o as t,b as o,e as a,r}from"./entry-e8c6a28e.mjs";const _={},c={class:"quotes grid"},n={class:"quotes-quotes"};function d(e,u,l,i,p,f){return t(),o("div",c,[a("div",n,[r(e.$slots,"default")])])}var q=s(_,[["render",d]]);export{q as default};
