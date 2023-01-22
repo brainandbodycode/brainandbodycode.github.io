@@ -1,5 +1,5 @@
 ---
-title: What to Expect From an Home Massage
+title: What to Expect From an In-Home Massage
 img: /img/blog/in-home-massage.jpg
 ---
 
@@ -7,7 +7,7 @@ img: /img/blog/in-home-massage.jpg
 ---
 src: /img/blog/in-home-massage.jpg
 ---
-# We provide in-home services for the highest level of relaxation.
+# We provide mobile massage services for the highest level of relaxation.
 
 When you choose a travel massage therapist, you receive a professional massage in the comfort of your own home. We have all the necessary equipment for you to relax at home. The massage table, linens, music, and lotion are provided, but if you have allergies or CBD creams you’d like to provide, we can use those too.
 ::
