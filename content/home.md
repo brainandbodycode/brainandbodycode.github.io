@@ -21,11 +21,11 @@ src: /img/home-adults.jpeg
 flip: true
 cta: Book a massage
 prices:
-    - Studio Massage Pricing:
+    - Studio Massage Pricing
     - $125 for 75 minutes
     - $150 for 90 minutes
     - $200 for 120 minutes
-    - In-Home Massage Pricing:
+    - In-Home Massage Pricing
     - $135 for 60 minutes
     - $170 for 75 minutes
     - $200 for 90 minutes
