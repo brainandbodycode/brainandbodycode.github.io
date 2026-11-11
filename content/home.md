@@ -48,7 +48,7 @@ src: /img/home-pediatrics.jpeg
 flip: false
 cta: Book a pediatric massage
 prices:
-    - $60 for 60 minutes
+    - $100 for 60 minutes
 ---
 Kiddos can benefit from bodywork too! Improving respiration, circulation, sensory organization, motor and language development, and emotional regulation are just a few benefits of bodywork to help your kiddo reach their full potential. While **Brain and Body Therapy** works with children diagnosed with ADHD, autism, sensory processing, and CP, there are many children who don’t qualify for services but could benefit from bodywork. 
 
